@@ -1,0 +1,2769 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sun Mar  9 14:58:14 2025
+| Host         : DESKTOP-LIMK86K running 64-bit major release  (build 9200)
+| Command      : report_methodology -file NEPCS_3000_S7_methodology_drc_routed.rpt -pb NEPCS_3000_S7_methodology_drc_routed.pb -rpx NEPCS_3000_S7_methodology_drc_routed.rpx
+| Design       : NEPCS_3000_S7
+| Device       : xc7s75fgga484-2
+| Speed File   : -2
+| Design State : Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 544
++-----------+----------+--------------------------------------------------------+------------+
+| Rule      | Severity | Description                                            | Violations |
++-----------+----------+--------------------------------------------------------+------------+
+| LUTAR-1   | Warning  | LUT drives async reset alert                           | 2          |
+| SYNTH-11  | Warning  | DSP output not registered                              | 3          |
+| SYNTH-13  | Warning  | combinational multiplier                               | 1          |
+| TIMING-9  | Warning  | Unknown CDC Logic                                      | 1          |
+| TIMING-10 | Warning  | Missing property on synchronizer                       | 1          |
+| TIMING-16 | Warning  | Large setup violation                                  | 32         |
+| TIMING-17 | Warning  | Non-clocked sequential cell                            | 284        |
+| TIMING-18 | Warning  | Missing input or output delay                          | 73         |
+| TIMING-20 | Warning  | Non-clocked latch                                      | 145        |
+| XDCC-1    | Warning  | Scoped Clock constraint overwritten with the same name | 1          |
+| XDCC-7    | Warning  | Scoped Clock constraint overwritten on the same source | 1          |
++-----------+----------+--------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell NEPCS_100_V01_PLD_Inst/ErrLocked_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) NEPCS_100_V01_PLD_Inst/ErrLocked_reg/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State11_reg[0]/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State11_reg[12]/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State11_reg[13]/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State11_reg[14]/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State11_reg[15]/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State11_reg[1]/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State11_reg[2]/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State11_reg[3]/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State11_reg[4]/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State11_reg[5]/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State11_reg[6]/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State11_reg[7]/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State11_reg[8]/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State11_reg[9]/CLR (the first 15 of 112 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#2 Warning
+LUT drives async reset alert  
+LUT cell NEPCS_100_V01_PLD_Inst/Err_Lock_State15[15]_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) NEPCS_100_V01_PLD_Inst/Err_Lock_State0_reg[0]/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State0_reg[10]/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State0_reg[12]/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State0_reg[13]/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State0_reg[15]/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State0_reg[1]/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State0_reg[3]/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State0_reg[4]/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State0_reg[6]/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State0_reg[7]/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State0_reg[9]/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State10_reg[0]/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State10_reg[14]/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State10_reg[2]/CLR, NEPCS_100_V01_PLD_Inst/Err_Lock_State10_reg[4]/CLR (the first 15 of 88 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+SYNTH-11#1 Warning
+DSP output not registered  
+DSP instance InvControlLoop_V40b_Inst/Product141_mul_temp is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#2 Warning
+DSP output not registered  
+DSP instance IsLandDetect_V10_block_Inst/Product1_mul_temp is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#3 Warning
+DSP output not registered  
+DSP instance URef_V1_inst/Product6_out1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-13#1 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance URef_V1_inst/Product6_out1.
+Related violations: <none>
+
+TIMING-9#1 Warning
+Unknown CDC Logic  
+One or more asynchronous Clock Domain Crossing has been detected between 2 clock domains through a set_false_path or a set_clock_groups or set_max_delay -datapath_only constraint but no double-registers logic synchronizer has been found on the side of the capture clock. It is recommended to run report_cdc for a complete and detailed CDC coverage. Please consider using XPM_CDC to avoid Critical severities
+Related violations: <none>
+
+TIMING-10#1 Warning
+Missing property on synchronizer  
+One or more logic synchronizer has been detected between 2 clock domains but the synchronizer does not have the property ASYNC_REG defined on one or both registers. It is recommended to run report_cdc for a complete and detailed CDC coverage
+Related violations: <none>
+
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -1.008 ns between ARM_comm_Inst/FSMC_DATA_CHK254_L8_reg[6]/C (clocked by CLK200M) and ARM_comm_Inst/SettingBuffer_reg[165][10]/CE (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -1.008 ns between ARM_comm_Inst/FSMC_DATA_CHK254_L8_reg[6]/C (clocked by CLK200M) and ARM_comm_Inst/SettingBuffer_reg[165][8]/CE (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -1.016 ns between ARM_comm_Inst/FSMC_ADD_CHK_reg[0]/C (clocked by CLK200M) and ARM_comm_Inst/SettingBuffer_reg[216][12]/CE (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -1.016 ns between ARM_comm_Inst/FSMC_ADD_CHK_reg[0]/C (clocked by CLK200M) and ARM_comm_Inst/SettingBuffer_reg[216][15]/CE (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#5 Warning
+Large setup violation  
+There is a large setup violation of -1.024 ns between ARM_comm_Inst/FSMC_DATA_CHK254_L8_reg[6]/C (clocked by CLK200M) and ARM_comm_Inst/SettingBuffer_reg[173][13]/CE (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#6 Warning
+Large setup violation  
+There is a large setup violation of -1.024 ns between ARM_comm_Inst/FSMC_DATA_CHK254_L8_reg[6]/C (clocked by CLK200M) and ARM_comm_Inst/SettingBuffer_reg[173][3]/CE (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#7 Warning
+Large setup violation  
+There is a large setup violation of -1.113 ns between ARM_comm_Inst/FSMC_DATA_CHK254_L8_reg[6]/C (clocked by CLK200M) and ARM_comm_Inst/SettingBuffer_reg[173][10]/CE (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#8 Warning
+Large setup violation  
+There is a large setup violation of -1.167 ns between ARM_comm_Inst/FSMC_DATA_CHK254_L8_reg[6]/C (clocked by CLK200M) and ARM_comm_Inst/SettingBuffer_reg[111][9]/CE (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#9 Warning
+Large setup violation  
+There is a large setup violation of -1.175 ns between ARM_comm_Inst/FSMC_ADD_r1_reg[4]/C (clocked by CLK200M) and ARM_comm_Inst/SettingBuffer_reg[85][0]/CE (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#10 Warning
+Large setup violation  
+There is a large setup violation of -1.191 ns between ARM_comm_Inst/FSMC_DATA_CHK254_L8_reg[6]/C (clocked by CLK200M) and ARM_comm_Inst/SettingBuffer_reg[91][0]/CE (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#11 Warning
+Large setup violation  
+There is a large setup violation of -1.200 ns between ARM_comm_Inst/FSMC_ADD_r1_reg[6]/C (clocked by CLK200M) and ARM_comm_Inst/SettingBuffer_reg[160][12]/CE (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#12 Warning
+Large setup violation  
+There is a large setup violation of -1.200 ns between ARM_comm_Inst/FSMC_ADD_r1_reg[6]/C (clocked by CLK200M) and ARM_comm_Inst/SettingBuffer_reg[160][15]/CE (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#13 Warning
+Large setup violation  
+There is a large setup violation of -1.201 ns between ARM_comm_Inst/FSMC_DATA_CHK254_L8_reg[6]/C (clocked by CLK200M) and ARM_comm_Inst/SettingBuffer_reg[111][10]/CE (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#14 Warning
+Large setup violation  
+There is a large setup violation of -1.201 ns between ARM_comm_Inst/FSMC_DATA_CHK254_L8_reg[6]/C (clocked by CLK200M) and ARM_comm_Inst/SettingBuffer_reg[111][2]/CE (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#15 Warning
+Large setup violation  
+There is a large setup violation of -1.266 ns between ARM_comm_Inst/FSMC_DATA_CHK254_L8_reg[6]/C (clocked by CLK200M) and ARM_comm_Inst/SettingBuffer_reg[111][0]/CE (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#16 Warning
+Large setup violation  
+There is a large setup violation of -1.288 ns between ARM_comm_Inst/FSMC_DATA_CHK254_L8_reg[6]/C (clocked by CLK200M) and ARM_comm_Inst/SettingBuffer_reg[111][15]/CE (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#17 Warning
+Large setup violation  
+There is a large setup violation of -1.290 ns between ARM_comm_Inst/FSMC_DATA_CHK254_L8_reg[6]/C (clocked by CLK200M) and ARM_comm_Inst/SettingBuffer_reg[111][12]/CE (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#18 Warning
+Large setup violation  
+There is a large setup violation of -1.290 ns between ARM_comm_Inst/FSMC_DATA_CHK254_L8_reg[6]/C (clocked by CLK200M) and ARM_comm_Inst/SettingBuffer_reg[111][14]/CE (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#19 Warning
+Large setup violation  
+There is a large setup violation of -1.400 ns between ARM_comm_Inst/FSMC_ADD_r1_reg[4]/C (clocked by CLK200M) and ARM_comm_Inst/SettingBuffer_reg[85][12]/CE (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#20 Warning
+Large setup violation  
+There is a large setup violation of -1.400 ns between ARM_comm_Inst/FSMC_ADD_r1_reg[4]/C (clocked by CLK200M) and ARM_comm_Inst/SettingBuffer_reg[85][15]/CE (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#21 Warning
+Large setup violation  
+There is a large setup violation of -1.436 ns between ARM_comm_Inst/FSMC_ADD_r1_reg[4]/C (clocked by CLK200M) and ARM_comm_Inst/SettingBuffer_reg[85][14]/CE (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#22 Warning
+Large setup violation  
+There is a large setup violation of -4.411 ns between ARM_comm_Inst/SettingBuffer_reg[220][2]/C (clocked by CLK200M) and ARM_comm_Inst/DATA_Temp_reg[9]/D (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#23 Warning
+Large setup violation  
+There is a large setup violation of -6.215 ns between ARM_comm_Inst/SettingBuffer_reg[93][1]/C (clocked by CLK200M) and ARM_comm_Inst/DATA_Temp_reg[14]/D (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#24 Warning
+Large setup violation  
+There is a large setup violation of -6.271 ns between ARM_comm_Inst/SettingBuffer_reg[93][1]/C (clocked by CLK200M) and ARM_comm_Inst/DATA_Temp_reg[15]/D (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#25 Warning
+Large setup violation  
+There is a large setup violation of -7.290 ns between ARM_comm_Inst/SettingBuffer_reg[93][1]/C (clocked by CLK200M) and ARM_comm_Inst/DATA_Temp_reg[7]/D (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#26 Warning
+Large setup violation  
+There is a large setup violation of -7.380 ns between ARM_comm_Inst/SettingBuffer_reg[93][1]/C (clocked by CLK200M) and ARM_comm_Inst/DATA_Temp_reg[4]/D (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#27 Warning
+Large setup violation  
+There is a large setup violation of -7.380 ns between ARM_comm_Inst/SettingBuffer_reg[93][1]/C (clocked by CLK200M) and ARM_comm_Inst/DATA_Temp_reg[6]/D (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#28 Warning
+Large setup violation  
+There is a large setup violation of -7.740 ns between ARM_comm_Inst/SettingBuffer_reg[93][1]/C (clocked by CLK200M) and ARM_comm_Inst/DATA_Temp_reg[1]/D (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#29 Warning
+Large setup violation  
+There is a large setup violation of -7.819 ns between ARM_comm_Inst/SettingBuffer_reg[93][1]/C (clocked by CLK200M) and ARM_comm_Inst/DATA_Temp_reg[5]/D (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#30 Warning
+Large setup violation  
+There is a large setup violation of -7.821 ns between ARM_comm_Inst/SettingBuffer_reg[93][1]/C (clocked by CLK200M) and ARM_comm_Inst/DATA_Temp_reg[0]/D (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#31 Warning
+Large setup violation  
+There is a large setup violation of -7.921 ns between ARM_comm_Inst/SettingBuffer_reg[93][1]/C (clocked by CLK200M) and ARM_comm_Inst/DATA_Temp_reg[3]/D (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#32 Warning
+Large setup violation  
+There is a large setup violation of -8.168 ns between ARM_comm_Inst/SettingBuffer_reg[93][1]/C (clocked by CLK200M) and ARM_comm_Inst/DATA_Temp_reg[2]/D (clocked by CLK200M). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-17#1 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_0/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_0/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_1/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_1/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_10/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#6 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_10/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#7 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_11/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#8 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_11/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#9 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_12/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#10 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_12/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#11 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_13/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#12 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_13/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#13 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_14/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#14 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_14/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#15 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_15/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#16 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_15/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#17 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_2/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#18 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_2/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#19 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_3/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#20 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_3/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#21 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_4/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#22 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_4/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#23 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_5/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#24 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_5/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#25 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_6/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#26 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_6/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#27 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_7/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#28 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_7/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#29 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_8/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#30 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_8/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#31 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_9/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#32 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_0_9/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#33 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_0/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#34 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_0/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#35 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_1/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#36 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_1/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#37 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_10/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#38 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_10/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#39 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_11/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#40 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_11/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#41 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_12/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#42 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_12/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#43 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_13/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#44 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_13/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#45 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_14/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#46 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_14/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#47 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_15/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#48 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_15/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#49 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_2/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#50 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_2/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#51 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_3/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#52 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_3/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#53 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_4/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#54 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_4/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#55 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_5/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#56 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_5/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#57 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_6/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#58 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_6/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#59 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_7/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#60 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_7/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#61 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_8/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#62 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_8/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#63 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_9/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#64 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW1/ram_reg_1_9/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#65 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_0_0/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#66 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_0_0/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#67 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_0_1/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#68 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_0_1/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#69 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_0_2/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#70 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_0_2/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#71 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_0_3/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#72 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_0_3/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#73 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_0_4/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#74 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_0_4/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#75 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_0_5/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#76 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_0_5/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#77 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_0_6/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#78 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_0_6/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#79 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_0_7/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#80 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_0_7/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#81 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_0_8/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#82 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_0_8/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#83 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_0_9/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#84 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_0_9/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#85 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_1_0/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#86 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_1_0/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#87 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_1_1/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#88 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_1_1/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#89 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_1_2/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#90 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_1_2/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#91 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_1_3/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#92 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_1_3/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#93 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_1_4/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#94 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_1_4/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#95 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_1_5/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#96 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_1_5/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#97 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_1_6/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#98 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_1_6/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#99 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_1_7/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#100 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_1_7/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#101 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_1_8/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#102 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_1_8/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#103 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_1_9/CLKARDCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#104 Warning
+Non-clocked sequential cell  
+The clock pin ARM_comm_Inst/FaultDramInstPWMW2/ram_reg_1_9/CLKBWRCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#105 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A1/ErrCnt_u12_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#106 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A1/ErrCnt_u12_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#107 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A1/ErrCnt_u12_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#108 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A1/ErrCnt_u12_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#109 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A1/ErrCnt_u12_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#110 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A1/ErrCnt_u12_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#111 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A1/ErrCnt_u12_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#112 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A1/ErrCnt_u12_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#113 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A1/ErrCnt_u12_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#114 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A1/ErrCnt_u12_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#115 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A1/ErrCnt_u12_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#116 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A1/ErrCnt_u12_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#117 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A1/ErrOut_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#118 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A2/ErrCnt_u12_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#119 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A2/ErrCnt_u12_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#120 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A2/ErrCnt_u12_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#121 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A2/ErrCnt_u12_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#122 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A2/ErrCnt_u12_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#123 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A2/ErrCnt_u12_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#124 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A2/ErrCnt_u12_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#125 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A2/ErrCnt_u12_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#126 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A2/ErrCnt_u12_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#127 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A2/ErrCnt_u12_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#128 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A2/ErrCnt_u12_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#129 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A2/ErrCnt_u12_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#130 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A2/ErrOut_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#131 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A3/ErrCnt_u12_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#132 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A3/ErrCnt_u12_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#133 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A3/ErrCnt_u12_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#134 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A3/ErrCnt_u12_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#135 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A3/ErrCnt_u12_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#136 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A3/ErrCnt_u12_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#137 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A3/ErrCnt_u12_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#138 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A3/ErrCnt_u12_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#139 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A3/ErrCnt_u12_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#140 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A3/ErrCnt_u12_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#141 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A3/ErrCnt_u12_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#142 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A3/ErrCnt_u12_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#143 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A3/ErrOut_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#144 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A4/ErrCnt_u12_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#145 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A4/ErrCnt_u12_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#146 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A4/ErrCnt_u12_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#147 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A4/ErrCnt_u12_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#148 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A4/ErrCnt_u12_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#149 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A4/ErrCnt_u12_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#150 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A4/ErrCnt_u12_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#151 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A4/ErrCnt_u12_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#152 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A4/ErrCnt_u12_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#153 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A4/ErrCnt_u12_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#154 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A4/ErrCnt_u12_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#155 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A4/ErrCnt_u12_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#156 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_A4/ErrOut_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#157 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B1/ErrCnt_u12_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#158 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B1/ErrCnt_u12_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#159 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B1/ErrCnt_u12_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#160 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B1/ErrCnt_u12_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#161 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B1/ErrCnt_u12_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#162 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B1/ErrCnt_u12_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#163 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B1/ErrCnt_u12_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#164 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B1/ErrCnt_u12_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#165 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B1/ErrCnt_u12_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#166 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B1/ErrCnt_u12_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#167 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B1/ErrCnt_u12_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#168 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B1/ErrCnt_u12_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#169 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B1/ErrOut_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#170 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B2/ErrCnt_u12_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#171 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B2/ErrCnt_u12_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#172 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B2/ErrCnt_u12_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#173 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B2/ErrCnt_u12_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#174 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B2/ErrCnt_u12_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#175 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B2/ErrCnt_u12_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#176 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B2/ErrCnt_u12_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#177 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B2/ErrCnt_u12_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#178 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B2/ErrCnt_u12_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#179 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B2/ErrCnt_u12_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#180 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B2/ErrCnt_u12_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#181 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B2/ErrCnt_u12_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#182 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B2/ErrOut_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#183 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B3/ErrCnt_u12_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#184 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B3/ErrCnt_u12_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#185 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B3/ErrCnt_u12_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#186 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B3/ErrCnt_u12_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#187 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B3/ErrCnt_u12_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#188 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B3/ErrCnt_u12_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#189 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B3/ErrCnt_u12_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#190 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B3/ErrCnt_u12_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#191 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B3/ErrCnt_u12_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#192 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B3/ErrCnt_u12_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#193 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B3/ErrCnt_u12_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#194 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B3/ErrCnt_u12_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#195 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B3/ErrOut_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#196 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B4/ErrCnt_u12_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#197 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B4/ErrCnt_u12_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#198 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B4/ErrCnt_u12_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#199 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B4/ErrCnt_u12_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#200 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B4/ErrCnt_u12_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#201 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B4/ErrCnt_u12_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#202 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B4/ErrCnt_u12_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#203 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B4/ErrCnt_u12_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#204 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B4/ErrCnt_u12_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#205 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B4/ErrCnt_u12_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#206 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B4/ErrCnt_u12_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#207 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B4/ErrCnt_u12_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#208 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_B4/ErrOut_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#209 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C1/ErrCnt_u12_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#210 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C1/ErrCnt_u12_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#211 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C1/ErrCnt_u12_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#212 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C1/ErrCnt_u12_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#213 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C1/ErrCnt_u12_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#214 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C1/ErrCnt_u12_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#215 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C1/ErrCnt_u12_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#216 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C1/ErrCnt_u12_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#217 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C1/ErrCnt_u12_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#218 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C1/ErrCnt_u12_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#219 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C1/ErrCnt_u12_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#220 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C1/ErrCnt_u12_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#221 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C1/ErrOut_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#222 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C2/ErrCnt_u12_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#223 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C2/ErrCnt_u12_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#224 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C2/ErrCnt_u12_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#225 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C2/ErrCnt_u12_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#226 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C2/ErrCnt_u12_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#227 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C2/ErrCnt_u12_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#228 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C2/ErrCnt_u12_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#229 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C2/ErrCnt_u12_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#230 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C2/ErrCnt_u12_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#231 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C2/ErrCnt_u12_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#232 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C2/ErrCnt_u12_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#233 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C2/ErrCnt_u12_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#234 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C2/ErrOut_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#235 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C3/ErrCnt_u12_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#236 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C3/ErrCnt_u12_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#237 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C3/ErrCnt_u12_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#238 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C3/ErrCnt_u12_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#239 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C3/ErrCnt_u12_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#240 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C3/ErrCnt_u12_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#241 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C3/ErrCnt_u12_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#242 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C3/ErrCnt_u12_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#243 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C3/ErrCnt_u12_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#244 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C3/ErrCnt_u12_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#245 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C3/ErrCnt_u12_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#246 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C3/ErrCnt_u12_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#247 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C3/ErrOut_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#248 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C4/ErrCnt_u12_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#249 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C4/ErrCnt_u12_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#250 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C4/ErrCnt_u12_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#251 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C4/ErrCnt_u12_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#252 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C4/ErrCnt_u12_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#253 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C4/ErrCnt_u12_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#254 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C4/ErrCnt_u12_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#255 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C4/ErrCnt_u12_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#256 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C4/ErrCnt_u12_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#257 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C4/ErrCnt_u12_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#258 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C4/ErrCnt_u12_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#259 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C4/ErrCnt_u12_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#260 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IGBTErr_C4/ErrOut_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#261 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IlimitOut2_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#262 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IlimitOut2_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#263 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IlimitOut2_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#264 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IlimitOut2_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#265 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IlimitOut2_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#266 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IlimitOut2_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#267 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IlimitOut2_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#268 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IlimitOut2_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#269 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IlimitOut2_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#270 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IlimitOut2_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#271 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IlimitOut2_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#272 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/IlimitOut2_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#273 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/OIFlg2_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#274 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/OIFlgClrCnt_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#275 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/OIFlgClrCnt_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#276 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/OIFlgClrCnt_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#277 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/OIFlgClrCnt_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#278 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/OIFlgClrCnt_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#279 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/OIFlgClrCnt_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#280 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/OIFlgClrCnt_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#281 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/OIFlgClrCnt_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#282 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/OIFlgClrCnt_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#283 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/OIFlgClrCnt_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#284 Warning
+Non-clocked sequential cell  
+The clock pin NEPCS_100_V01_PLD_Inst/OIFlgClrCnt_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on AD_BUSY0 relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on AD_BUSY1 relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on AD_DB[0] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on AD_DB[10] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An input delay is missing on AD_DB[11] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An input delay is missing on AD_DB[12] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An input delay is missing on AD_DB[13] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An input delay is missing on AD_DB[1] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An input delay is missing on AD_DB[2] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An input delay is missing on AD_DB[3] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An input delay is missing on AD_DB[4] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An input delay is missing on AD_DB[5] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An input delay is missing on AD_DB[6] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An input delay is missing on AD_DB[7] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An input delay is missing on AD_DB[8] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An input delay is missing on AD_DB[9] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An input delay is missing on CN6_7_CONNECT relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#18 Warning
+Missing input or output delay  
+An input delay is missing on CPLD_in[0] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#19 Warning
+Missing input or output delay  
+An input delay is missing on CPLD_in[10] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#20 Warning
+Missing input or output delay  
+An input delay is missing on CPLD_in[11] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#21 Warning
+Missing input or output delay  
+An input delay is missing on CPLD_in[12] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#22 Warning
+Missing input or output delay  
+An input delay is missing on CPLD_in[13] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#23 Warning
+Missing input or output delay  
+An input delay is missing on CPLD_in[14] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#24 Warning
+Missing input or output delay  
+An input delay is missing on CPLD_in[15] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#25 Warning
+Missing input or output delay  
+An input delay is missing on CPLD_in[1] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#26 Warning
+Missing input or output delay  
+An input delay is missing on CPLD_in[2] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#27 Warning
+Missing input or output delay  
+An input delay is missing on CPLD_in[3] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#28 Warning
+Missing input or output delay  
+An input delay is missing on CPLD_in[4] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#29 Warning
+Missing input or output delay  
+An input delay is missing on CPLD_in[5] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#30 Warning
+Missing input or output delay  
+An input delay is missing on CPLD_in[6] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#31 Warning
+Missing input or output delay  
+An input delay is missing on CPLD_in[7] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#32 Warning
+Missing input or output delay  
+An input delay is missing on CPLD_in[8] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#33 Warning
+Missing input or output delay  
+An input delay is missing on CPLD_in[9] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#34 Warning
+Missing input or output delay  
+An input delay is missing on FIBER_RX_IN relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#35 Warning
+Missing input or output delay  
+An output delay is missing on AD_CONVST relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#36 Warning
+Missing input or output delay  
+An output delay is missing on AD_CS0 relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#37 Warning
+Missing input or output delay  
+An output delay is missing on AD_CS1 relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#38 Warning
+Missing input or output delay  
+An output delay is missing on AD_RD relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#39 Warning
+Missing input or output delay  
+An output delay is missing on AD_Rst relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#40 Warning
+Missing input or output delay  
+An output delay is missing on CPLD_out[0] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#41 Warning
+Missing input or output delay  
+An output delay is missing on CPLD_out[10] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#42 Warning
+Missing input or output delay  
+An output delay is missing on CPLD_out[11] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#43 Warning
+Missing input or output delay  
+An output delay is missing on CPLD_out[1] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#44 Warning
+Missing input or output delay  
+An output delay is missing on CPLD_out[2] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#45 Warning
+Missing input or output delay  
+An output delay is missing on CPLD_out[3] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#46 Warning
+Missing input or output delay  
+An output delay is missing on CPLD_out[4] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#47 Warning
+Missing input or output delay  
+An output delay is missing on CPLD_out[5] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#48 Warning
+Missing input or output delay  
+An output delay is missing on CPLD_out[6] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#49 Warning
+Missing input or output delay  
+An output delay is missing on CPLD_out[7] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#50 Warning
+Missing input or output delay  
+An output delay is missing on CPLD_out[8] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#51 Warning
+Missing input or output delay  
+An output delay is missing on CPLD_out[9] relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#52 Warning
+Missing input or output delay  
+An output delay is missing on FIBER_TX_OUT relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#53 Warning
+Missing input or output delay  
+An output delay is missing on PWMA_1 relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#54 Warning
+Missing input or output delay  
+An output delay is missing on PWMA_2 relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#55 Warning
+Missing input or output delay  
+An output delay is missing on PWMA_3 relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#56 Warning
+Missing input or output delay  
+An output delay is missing on PWMA_4 relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#57 Warning
+Missing input or output delay  
+An output delay is missing on PWMA_5 relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#58 Warning
+Missing input or output delay  
+An output delay is missing on PWMA_6 relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#59 Warning
+Missing input or output delay  
+An output delay is missing on PWMB_1 relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#60 Warning
+Missing input or output delay  
+An output delay is missing on PWMB_2 relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#61 Warning
+Missing input or output delay  
+An output delay is missing on PWMB_3 relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#62 Warning
+Missing input or output delay  
+An output delay is missing on PWMB_4 relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#63 Warning
+Missing input or output delay  
+An output delay is missing on PWMB_5 relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#64 Warning
+Missing input or output delay  
+An output delay is missing on PWMB_6 relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#65 Warning
+Missing input or output delay  
+An output delay is missing on PWMC_1 relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#66 Warning
+Missing input or output delay  
+An output delay is missing on PWMC_2 relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#67 Warning
+Missing input or output delay  
+An output delay is missing on PWMC_3 relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#68 Warning
+Missing input or output delay  
+An output delay is missing on PWMC_4 relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#69 Warning
+Missing input or output delay  
+An output delay is missing on PWMC_5 relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#70 Warning
+Missing input or output delay  
+An output delay is missing on PWMC_6 relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#71 Warning
+Missing input or output delay  
+An output delay is missing on PWM_OE1 relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#72 Warning
+Missing input or output delay  
+An output delay is missing on PWM_OE2 relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-18#73 Warning
+Missing input or output delay  
+An output delay is missing on Test_Pin1 relative to clock(s) g_clk
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[0] cannot be properly analyzed as its control pin FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[10] cannot be properly analyzed as its control pin FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[11] cannot be properly analyzed as its control pin FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[12] cannot be properly analyzed as its control pin FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[13] cannot be properly analyzed as its control pin FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[14] cannot be properly analyzed as its control pin FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[15] cannot be properly analyzed as its control pin FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[1] cannot be properly analyzed as its control pin FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[2] cannot be properly analyzed as its control pin FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[3] cannot be properly analyzed as its control pin FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[4] cannot be properly analyzed as its control pin FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[5] cannot be properly analyzed as its control pin FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[6] cannot be properly analyzed as its control pin FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[7] cannot be properly analyzed as its control pin FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[8] cannot be properly analyzed as its control pin FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#16 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[9] cannot be properly analyzed as its control pin FifoSelZ_for_wave[0].FifoSelZ_Inst/FIFO_Data_r_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#17 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[0] cannot be properly analyzed as its control pin FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#18 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[10] cannot be properly analyzed as its control pin FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#19 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[11] cannot be properly analyzed as its control pin FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#20 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[12] cannot be properly analyzed as its control pin FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#21 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[13] cannot be properly analyzed as its control pin FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#22 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[14] cannot be properly analyzed as its control pin FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#23 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[15] cannot be properly analyzed as its control pin FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#24 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[1] cannot be properly analyzed as its control pin FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#25 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[2] cannot be properly analyzed as its control pin FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#26 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[3] cannot be properly analyzed as its control pin FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#27 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[4] cannot be properly analyzed as its control pin FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#28 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[5] cannot be properly analyzed as its control pin FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#29 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[6] cannot be properly analyzed as its control pin FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#30 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[7] cannot be properly analyzed as its control pin FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#31 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[8] cannot be properly analyzed as its control pin FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#32 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[9] cannot be properly analyzed as its control pin FifoSelZ_for_wave[1].FifoSelZ_Inst/FIFO_Data_r_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#33 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[0] cannot be properly analyzed as its control pin FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#34 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[10] cannot be properly analyzed as its control pin FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#35 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[11] cannot be properly analyzed as its control pin FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#36 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[12] cannot be properly analyzed as its control pin FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#37 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[13] cannot be properly analyzed as its control pin FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#38 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[14] cannot be properly analyzed as its control pin FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#39 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[15] cannot be properly analyzed as its control pin FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#40 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[1] cannot be properly analyzed as its control pin FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#41 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[2] cannot be properly analyzed as its control pin FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#42 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[3] cannot be properly analyzed as its control pin FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#43 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[4] cannot be properly analyzed as its control pin FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#44 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[5] cannot be properly analyzed as its control pin FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#45 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[6] cannot be properly analyzed as its control pin FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#46 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[7] cannot be properly analyzed as its control pin FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#47 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[8] cannot be properly analyzed as its control pin FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#48 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[9] cannot be properly analyzed as its control pin FifoSelZ_for_wave[2].FifoSelZ_Inst/FIFO_Data_r_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#49 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[0] cannot be properly analyzed as its control pin FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#50 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[10] cannot be properly analyzed as its control pin FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#51 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[11] cannot be properly analyzed as its control pin FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#52 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[12] cannot be properly analyzed as its control pin FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#53 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[13] cannot be properly analyzed as its control pin FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#54 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[14] cannot be properly analyzed as its control pin FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#55 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[15] cannot be properly analyzed as its control pin FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#56 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[1] cannot be properly analyzed as its control pin FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#57 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[2] cannot be properly analyzed as its control pin FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#58 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[3] cannot be properly analyzed as its control pin FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#59 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[4] cannot be properly analyzed as its control pin FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#60 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[5] cannot be properly analyzed as its control pin FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#61 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[6] cannot be properly analyzed as its control pin FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#62 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[7] cannot be properly analyzed as its control pin FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#63 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[8] cannot be properly analyzed as its control pin FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#64 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[9] cannot be properly analyzed as its control pin FifoSelZ_for_wave[3].FifoSelZ_Inst/FIFO_Data_r_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#65 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[0] cannot be properly analyzed as its control pin FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#66 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[10] cannot be properly analyzed as its control pin FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#67 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[11] cannot be properly analyzed as its control pin FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#68 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[12] cannot be properly analyzed as its control pin FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#69 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[13] cannot be properly analyzed as its control pin FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#70 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[14] cannot be properly analyzed as its control pin FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#71 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[15] cannot be properly analyzed as its control pin FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#72 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[1] cannot be properly analyzed as its control pin FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#73 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[2] cannot be properly analyzed as its control pin FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#74 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[3] cannot be properly analyzed as its control pin FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#75 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[4] cannot be properly analyzed as its control pin FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#76 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[5] cannot be properly analyzed as its control pin FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#77 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[6] cannot be properly analyzed as its control pin FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#78 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[7] cannot be properly analyzed as its control pin FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#79 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[8] cannot be properly analyzed as its control pin FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#80 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[9] cannot be properly analyzed as its control pin FifoSelZ_for_wave[4].FifoSelZ_Inst/FIFO_Data_r_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#81 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[0] cannot be properly analyzed as its control pin FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#82 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[10] cannot be properly analyzed as its control pin FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#83 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[11] cannot be properly analyzed as its control pin FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#84 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[12] cannot be properly analyzed as its control pin FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#85 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[13] cannot be properly analyzed as its control pin FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#86 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[14] cannot be properly analyzed as its control pin FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#87 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[15] cannot be properly analyzed as its control pin FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#88 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[1] cannot be properly analyzed as its control pin FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#89 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[2] cannot be properly analyzed as its control pin FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#90 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[3] cannot be properly analyzed as its control pin FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#91 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[4] cannot be properly analyzed as its control pin FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#92 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[5] cannot be properly analyzed as its control pin FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#93 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[6] cannot be properly analyzed as its control pin FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#94 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[7] cannot be properly analyzed as its control pin FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#95 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[8] cannot be properly analyzed as its control pin FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#96 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[9] cannot be properly analyzed as its control pin FifoSelZ_for_wave[5].FifoSelZ_Inst/FIFO_Data_r_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#97 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[0] cannot be properly analyzed as its control pin FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#98 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[10] cannot be properly analyzed as its control pin FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#99 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[11] cannot be properly analyzed as its control pin FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#100 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[12] cannot be properly analyzed as its control pin FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#101 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[13] cannot be properly analyzed as its control pin FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#102 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[14] cannot be properly analyzed as its control pin FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#103 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[15] cannot be properly analyzed as its control pin FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#104 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[1] cannot be properly analyzed as its control pin FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#105 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[2] cannot be properly analyzed as its control pin FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#106 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[3] cannot be properly analyzed as its control pin FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#107 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[4] cannot be properly analyzed as its control pin FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#108 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[5] cannot be properly analyzed as its control pin FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#109 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[6] cannot be properly analyzed as its control pin FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#110 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[7] cannot be properly analyzed as its control pin FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#111 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[8] cannot be properly analyzed as its control pin FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#112 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[9] cannot be properly analyzed as its control pin FifoSelZ_for_wave[6].FifoSelZ_Inst/FIFO_Data_r_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#113 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[0] cannot be properly analyzed as its control pin FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#114 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[10] cannot be properly analyzed as its control pin FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#115 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[11] cannot be properly analyzed as its control pin FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#116 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[12] cannot be properly analyzed as its control pin FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#117 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[13] cannot be properly analyzed as its control pin FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#118 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[14] cannot be properly analyzed as its control pin FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#119 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[15] cannot be properly analyzed as its control pin FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#120 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[1] cannot be properly analyzed as its control pin FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#121 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[2] cannot be properly analyzed as its control pin FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#122 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[3] cannot be properly analyzed as its control pin FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#123 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[4] cannot be properly analyzed as its control pin FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#124 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[5] cannot be properly analyzed as its control pin FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#125 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[6] cannot be properly analyzed as its control pin FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#126 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[7] cannot be properly analyzed as its control pin FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#127 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[8] cannot be properly analyzed as its control pin FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#128 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[9] cannot be properly analyzed as its control pin FifoSelZ_for_wave[7].FifoSelZ_Inst/FIFO_Data_r_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#129 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[0] cannot be properly analyzed as its control pin FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#130 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[10] cannot be properly analyzed as its control pin FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#131 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[11] cannot be properly analyzed as its control pin FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#132 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[12] cannot be properly analyzed as its control pin FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#133 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[13] cannot be properly analyzed as its control pin FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#134 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[14] cannot be properly analyzed as its control pin FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#135 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[15] cannot be properly analyzed as its control pin FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#136 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[1] cannot be properly analyzed as its control pin FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#137 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[2] cannot be properly analyzed as its control pin FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#138 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[3] cannot be properly analyzed as its control pin FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#139 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[4] cannot be properly analyzed as its control pin FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#140 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[5] cannot be properly analyzed as its control pin FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#141 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[6] cannot be properly analyzed as its control pin FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#142 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[7] cannot be properly analyzed as its control pin FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#143 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[8] cannot be properly analyzed as its control pin FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#144 Warning
+Non-clocked latch  
+The latch FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[9] cannot be properly analyzed as its control pin FifoSelZ_for_wave[8].FifoSelZ_Inst/FIFO_Data_r_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#145 Warning
+Non-clocked latch  
+The latch NEPCS_100_V01_PLD_Inst/State10_14[0] cannot be properly analyzed as its control pin NEPCS_100_V01_PLD_Inst/State10_14[0]/G is not reached by a timing clock
+Related violations: <none>
+
+XDCC-1#1 Warning
+Scoped Clock constraint overwritten with the same name  
+A new clock constraint create_clock overrides a previous scoped clock constraint with the same name. It is not recommended to override a scoped (typically an IP) clock constraint and could result in unexpected behaviors.
+New: create_clock -period 40.000 -name g_clk -waveform {20.000 40.000} [get_ports g_clk] (Source: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/constrs_1/imports/xdc/io.xdc (Line: 244))
+Previous: create_clock -period 40.000 [get_ports g_clk] (Source: d:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/sources_1/ip/mmcm0/mmcm0.xdc (Line: 56))
+Related violations: <none>
+
+XDCC-7#1 Warning
+Scoped Clock constraint overwritten on the same source  
+A new clock constraint create_clock overrides a previous scoped clock constraint defined on the same source. It is not recommended to override a scoped (typically an IP) clock constraint and could result in unexpected behaviors.
+New: create_clock -period 40.000 -name g_clk -waveform {20.000 40.000} [get_ports g_clk] (Source: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/constrs_1/imports/xdc/io.xdc (Line: 244))
+Previous: create_clock -period 40.000 [get_ports g_clk] (Source: d:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/sources_1/ip/mmcm0/mmcm0.xdc (Line: 56))
+Related violations: <none>
+
+

@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Mar  5 11:15:59 2025
+# Process ID: 20900
+# Current directory: D:/XiongMao2025/SHR/20250305_JinYang_newADdrv
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30664 D:\XiongMao2025\SHR\20250305_JinYang_newADdrv\20250303_JinYang_newADdrv.xpr
+# Log file: D:/XiongMao2025/SHR/20250305_JinYang_newADdrv/vivado.log
+# Journal file: D:/XiongMao2025/SHR/20250305_JinYang_newADdrv\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/XiongMao2025/SHR/20250305_JinYang_newADdrv/20250303_JinYang_newADdrv.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1

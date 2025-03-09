@@ -1,0 +1,315 @@
+***************************************************************************************
+*                      PROJECT ARCHIVE SUMMARY REPORT
+*
+*                      (archive_project_summary.txt)
+*
+*  PLEASE READ THIS REPORT TO GET THE DETAILED INFORMATION ABOUT THE PROJECT DATA THAT
+*  WAS ARCHIVED FOR THE CURRENT PROJECT
+*
+* The report is divided into following five sections:-
+*
+* Section (1) - PROJECT INFORMATION
+*  This section provides the details of the current project that was archived
+*
+* Section (2) - INCLUDED/EXCLUDED RUNS
+*  This section summarizes the list of design runs for which the results were included
+*  or excluded from the archive
+*
+* Section (3) - ARCHIVED SOURCES
+*  This section summarizes the list of files that were added to the archive
+*
+* Section (3.1) - INCLUDE FILES
+*  This section summarizes the list of 'include' files that were added to the archive
+*
+* Section (3.1.1) - INCLUDE_DIRS SETTINGS
+*  This section summarizes the 'verilog include directory' path settings, if any
+*
+* Section (3.2) - REMOTE SOURCES
+*  This section summarizes the list of referenced 'remote' files that were 'imported'
+*  into the archived project
+*
+* Section (3.3) - SOURCES SUMMARY
+*  This section summarizes the list of all the files present in the archive
+*
+* Section (3.4) - REMOTE IP DEFINITIONS
+*  This section summarizes the list of all the remote IP's present in the archive
+*
+* Section (4) - JOURNAL/LOG FILES
+*  This section summarizes the list of journal/log files that were added to the archive
+*
+***************************************************************************************
+
+Section (1) - PROJECT INFORMATION
+---------------------------------
+Name      = xilinx_AM3358_61580
+Directory = D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/vivado
+
+WARNING: Please verify the compiled library directory path for the following property in the
+         current project. The path may point to an invalid location after opening this project.
+         This could happen if the project was unarchived in a location where this path is not
+         accessible. To resolve this issue, please set this property with the desired path
+         before launching simulation:-
+
+Property = compxlib.xsim_compiled_library_dir
+Path     = 
+
+Section (2) - INCLUDED RUNS
+---------------------------
+The run results were included for the following runs in the archived project:-
+
+<synth_1>
+<impl_1>
+
+Section (3) - ARCHIVED SOURCES
+------------------------------
+The following sub-sections describes the list of sources that were archived for the current project:-
+
+Section (3.1) - INCLUDE FILES
+-----------------------------
+List of referenced 'RTL Include' files that were 'imported' into the archived project:-
+
+None
+
+Section (3.1.1) - INCLUDE_DIRS SETTINGS
+---------------------------------------
+List of the "INCLUDE_DIRS" fileset property settings that may or may not be applicable in the archived
+project, since most the 'RTL Include' files referenced in the original project were 'imported' into the
+archived project.
+
+<sources_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+<sim_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+Section (3.2) - REMOTE SOURCES
+------------------------------
+List of referenced 'remote' design files that were 'imported' into the archived project:-
+
+<constrs_1>
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/xdc/debug.xdc
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/xdc/io.xdc
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/xdc/timing.xdc
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/xdc/phy.xdc
+
+<sim_1>
+None
+
+<sources_1>
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/ip/sintab/sintab.xci
+d:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/ip/sintab/sintab_ooc.xdc
+d:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/ip/sintab/sintab.mif
+d:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/ip/sintab/hdl/dist_mem_gen_v8_0_vhsyn_rfs.vhd
+d:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/ip/sintab/synth/sintab.vhd
+d:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/ip/sintab/sintab.xml
+d:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/coe/dst4.coe
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/ip/wave_sdpr_blk/wave_blk_sdpr/wave_blk_sdpr.xci
+d:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/ip/wave_sdpr_blk/wave_blk_sdpr/wave_blk_sdpr.xml
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/ip/mmcm0/mmcm0.xci
+d:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/ip/mmcm0/mmcm0_board.xdc
+d:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/ip/mmcm0/mmcm0.xdc
+d:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/ip/mmcm0/mmcm0_ooc.xdc
+d:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/ip/mmcm0/mmcm_pll_drp_func_7s_mmcm.vh
+d:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/ip/mmcm0/mmcm_pll_drp_func_7s_pll.vh
+d:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/ip/mmcm0/mmcm_pll_drp_func_us_mmcm.vh
+d:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/ip/mmcm0/mmcm_pll_drp_func_us_pll.vh
+d:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/ip/mmcm0/mmcm_pll_drp_func_us_plus_pll.vh
+d:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/ip/mmcm0/mmcm_pll_drp_func_us_plus_mmcm.vh
+d:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/ip/mmcm0/mmcm0_clk_wiz.v
+d:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/ip/mmcm0/mmcm0.v
+d:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/ip/mmcm0/mmcm0.xml
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_AdSubZero_V1/AdSubZero_V1.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_AnalogMonitor_V10/AnalogMonitor_V10.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/AverFilter8192P_b18_V1.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_AverFilterP128Ch4_V11/AverFilterP128Ch4_V11.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_AverFilterP32Ch16_V10/AverFilterP32Ch16_V10.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_AverFilterP32Ch8_V10/AverFilterP32Ch8_V10.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_BitFilterCh2_V11a/BitFilterCh2_V11a.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_BitFilter_V11/BitFilter_V11.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/BitFilter_VZ16.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_CabinetHeatOV_V10/CabinetHeatOV_V10.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Drv/ClkPulse_Gen.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/FreqActivePower/FreqActivePower_VZ5.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_FrequencyMonitor_V10/FrequencyMonitor_V10.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_GridPll_V20/GridPll_V20.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_InsVoltCurrMonitor_V20/InsVoltCurrMonitor_V21.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_InvControlLoop3L_V40a/InvControlLoop3L_V40b.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_IsLandDetectLogic_V30/IsLandDetectLogic_V30.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_IsLandDetect_V10/IsLandDetect_V10_block.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/LmtB16_V1.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_MulMpy_V10/MulMpy_V10.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/NEPCS_100_V01_FSM.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/NEPCS_100_V01_PLD.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_NegSeqPhaseAdj_V10/NegSeqPhaseAdj_V10.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/OffDly_V1.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_OnDelay2s_V11/OnDelay2s_V11.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_OnDelay4s_V11/OnDelay4s_V11.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_PvrLoop_V10/PVR_V10.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_InvControlLoop3L_V40a/PWMTime_V1.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_PhaseSequenceDetect_V10/PhaseSequenceDetect_V10.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_VsgCtrlLoopV32/PluseV1.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/PrdDelay256V2_0.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/ProtectOI_V1.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_PulseSource_V15/PulseSource_V16Z.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_RMSP64Ch4_V10/RMSP64Ch4_V10.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_RMSP64Ch8_V10/RMSP64Ch8_V10.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_RelayPulseCtrl_V10/RelayPulseCtrl_CH4_V10.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_SinTab8192_V11/RomP8192/RomP8192.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_RMSP64Ch4_V10/SimpDualPortRAM_Wrapper_256x24b.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_AverFilterP32Ch16_V10/SimpDualPortRAM_Wrapper_512x12b.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_AverFilterP128Ch4_V11/SimpDualPortRAM_Wrapper_512x16b.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_RMSP64Ch8_V10/SimpDualPortRAM_Wrapper_512x24b.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_UL_HLvrt_V10/SimpDualPortRAM_Wrapper_generic.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_RMSP64Ch4_V10/SimpleDualPortRAM_256x24b.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_AverFilterP32Ch16_V10/SimpleDualPortRAM_512x12b.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_AverFilterP128Ch4_V11/SimpleDualPortRAM_512x16b.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_RMSP64Ch8_V10/SimpleDualPortRAM_512x24b.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_UL_HLvrt_V10/SimpleDualPortRAM_generic.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_SinTab8192_V11/SinTab8192.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_SinTab8192_V11/SinTab8192_V11.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_SoftStartChn1b12_V10/SoftStartChn1b12_V10.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_StateOnCheck_CH4_V10/StateOnCheck_CH8_V10.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_VsgCtrlLoopV32/Subsystem.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_VsgCtrlLoopV32/Subsystem1.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Temp2DrvLogic_V12_3L.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_VsgCtrlLoopV32/VsgCtrlLoopV38Z.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/new/ad_ctrl.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/new/pulse.v
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/new/arm3358_pkg.sv
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/new/arm3358_commu_v2.sv
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/new/check_code_detect.sv
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/new/comm_state_detect.sv
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/new/heartbeat_detect.sv
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/new/multi_ad_ctrl.sv
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/new/sample_fifo.sv
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/new/wave_data_multiplxer.sv
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/new/NEPCS_100_V01_Top.sv
+D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/coe/dst4.coe
+
+<utils_1>
+None
+
+Section (3.3) - SOURCES SUMMARY
+-------------------------------
+List of all the source files present in the archived project:-
+
+<sources_1>
+./xilinx_AM3358_61580.srcs/sources_1/ip/sintab/sintab.xci
+./xilinx_AM3358_61580.srcs/sources_1/ip/sintab/sintab_ooc.xdc
+./xilinx_AM3358_61580.srcs/sources_1/ip/sintab/sintab.mif
+./xilinx_AM3358_61580.srcs/sources_1/ip/sintab/hdl/dist_mem_gen_v8_0_vhsyn_rfs.vhd
+./xilinx_AM3358_61580.srcs/sources_1/ip/sintab/synth/sintab.vhd
+./xilinx_AM3358_61580.srcs/sources_1/ip/sintab/sintab.xml
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/coe/dst4.coe
+./xilinx_AM3358_61580.srcs/sources_1/ip/wave_blk_sdpr/wave_blk_sdpr.xci
+./xilinx_AM3358_61580.srcs/sources_1/ip/wave_blk_sdpr/wave_blk_sdpr.xml
+./xilinx_AM3358_61580.srcs/sources_1/ip/mmcm0/mmcm0.xci
+./xilinx_AM3358_61580.srcs/sources_1/ip/mmcm0/mmcm0_board.xdc
+./xilinx_AM3358_61580.srcs/sources_1/ip/mmcm0/mmcm0.xdc
+./xilinx_AM3358_61580.srcs/sources_1/ip/mmcm0/mmcm0_ooc.xdc
+./xilinx_AM3358_61580.srcs/sources_1/ip/mmcm0/mmcm_pll_drp_func_7s_mmcm.vh
+./xilinx_AM3358_61580.srcs/sources_1/ip/mmcm0/mmcm_pll_drp_func_7s_pll.vh
+./xilinx_AM3358_61580.srcs/sources_1/ip/mmcm0/mmcm_pll_drp_func_us_mmcm.vh
+./xilinx_AM3358_61580.srcs/sources_1/ip/mmcm0/mmcm_pll_drp_func_us_pll.vh
+./xilinx_AM3358_61580.srcs/sources_1/ip/mmcm0/mmcm_pll_drp_func_us_plus_pll.vh
+./xilinx_AM3358_61580.srcs/sources_1/ip/mmcm0/mmcm_pll_drp_func_us_plus_mmcm.vh
+./xilinx_AM3358_61580.srcs/sources_1/ip/mmcm0/mmcm0_clk_wiz.v
+./xilinx_AM3358_61580.srcs/sources_1/ip/mmcm0/mmcm0.v
+./xilinx_AM3358_61580.srcs/sources_1/ip/mmcm0/mmcm0.xml
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_AdSubZero_V1/AdSubZero_V1.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_AnalogMonitor_V10/AnalogMonitor_V10.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/AverFilter8192P_b18_V1.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_AverFilterP128Ch4_V11/AverFilterP128Ch4_V11.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_AverFilterP32Ch16_V10/AverFilterP32Ch16_V10.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_AverFilterP32Ch8_V10/AverFilterP32Ch8_V10.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_BitFilterCh2_V11a/BitFilterCh2_V11a.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_BitFilter_V11/BitFilter_V11.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/BitFilter_VZ16.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_CabinetHeatOV_V10/CabinetHeatOV_V10.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Drv/ClkPulse_Gen.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/FreqActivePower/FreqActivePower_VZ5.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_FrequencyMonitor_V10/FrequencyMonitor_V10.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_GridPll_V20/GridPll_V20.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_InsVoltCurrMonitor_V20/InsVoltCurrMonitor_V21.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_InvControlLoop3L_V40a/InvControlLoop3L_V40b.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_IsLandDetectLogic_V30/IsLandDetectLogic_V30.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_IsLandDetect_V10/IsLandDetect_V10_block.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/LmtB16_V1.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_MulMpy_V10/MulMpy_V10.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/NEPCS_100_V01_FSM.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/NEPCS_100_V01_PLD.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_NegSeqPhaseAdj_V10/NegSeqPhaseAdj_V10.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/OffDly_V1.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_OnDelay2s_V11/OnDelay2s_V11.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_OnDelay4s_V11/OnDelay4s_V11.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_PvrLoop_V10/PVR_V10.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_InvControlLoop3L_V40a/PWMTime_V1.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_PhaseSequenceDetect_V10/PhaseSequenceDetect_V10.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_VsgCtrlLoopV32/PluseV1.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/PrdDelay256V2_0.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/ProtectOI_V1.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_PulseSource_V15/PulseSource_V16Z.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_RMSP64Ch4_V10/RMSP64Ch4_V10.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_RMSP64Ch8_V10/RMSP64Ch8_V10.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_RelayPulseCtrl_V10/RelayPulseCtrl_CH4_V10.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_SinTab8192_V11/RomP8192/RomP8192.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_RMSP64Ch4_V10/SimpDualPortRAM_Wrapper_256x24b.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_AverFilterP32Ch16_V10/SimpDualPortRAM_Wrapper_512x12b.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_AverFilterP128Ch4_V11/SimpDualPortRAM_Wrapper_512x16b.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_RMSP64Ch8_V10/SimpDualPortRAM_Wrapper_512x24b.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_UL_HLvrt_V10/SimpDualPortRAM_Wrapper_generic.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_RMSP64Ch4_V10/SimpleDualPortRAM_256x24b.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_AverFilterP32Ch16_V10/SimpleDualPortRAM_512x12b.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_AverFilterP128Ch4_V11/SimpleDualPortRAM_512x16b.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_RMSP64Ch8_V10/SimpleDualPortRAM_512x24b.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_UL_HLvrt_V10/SimpleDualPortRAM_generic.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_SinTab8192_V11/SinTab8192.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_SinTab8192_V11/SinTab8192_V11.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_SoftStartChn1b12_V10/SoftStartChn1b12_V10.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_StateOnCheck_CH4_V10/StateOnCheck_CH8_V10.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_VsgCtrlLoopV32/Subsystem.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_VsgCtrlLoopV32/Subsystem1.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Temp2DrvLogic_V12_3L.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/Work_VsgCtrlLoopV32/VsgCtrlLoopV38Z.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/new/ad_ctrl.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/new/pulse.v
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/new/arm3358_pkg.sv
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/new/arm3358_commu_v2.sv
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/new/check_code_detect.sv
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/new/comm_state_detect.sv
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/new/heartbeat_detect.sv
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/new/multi_ad_ctrl.sv
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/new/sample_fifo.sv
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/new/wave_data_multiplxer.sv
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/new/NEPCS_100_V01_Top.sv
+./xilinx_AM3358_61580.srcs/sources_1/imports/src/coe/dst4.coe
+
+<constrs_1>
+./xilinx_AM3358_61580.srcs/constrs_1/imports/xdc/debug.xdc
+./xilinx_AM3358_61580.srcs/constrs_1/imports/xdc/io.xdc
+./xilinx_AM3358_61580.srcs/constrs_1/imports/xdc/timing.xdc
+./xilinx_AM3358_61580.srcs/constrs_1/imports/xdc/phy.xdc
+
+<sim_1>
+None
+
+<utils_1>
+None
+
+Section (3.4) - REMOTE IP DEFINITIONS
+-------------------------------------
+List of all the remote IP's present in the archived project:-
+
+<sources_1>
+None
+
+Section (4) - JOURNAL/LOG FILES
+-------------------------------
+List of Journal/Log files that were added to the archived project:-
+
+Source File = D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/vivado/vivado.jou
+Archived Location = ./xilinx_AM3358_61580/vivado.jou
+
+Source File = D:/A_PRJ/NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/vivado/vivado.log
+Archived Location = ./xilinx_AM3358_61580/vivado.log
+

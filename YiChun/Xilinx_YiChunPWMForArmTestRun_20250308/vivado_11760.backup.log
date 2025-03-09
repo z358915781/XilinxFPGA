@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Mar  8 17:28:55 2025
+# Process ID: 11760
+# Current directory: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChun
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20424 D:\XiongMao2025\SHR\20250305_JinYang_newADdrvToYiChun\20250303_JinYang_newADdrv.xpr
+# Log file: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChun/vivado.log
+# Journal file: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChun\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChun/20250303_JinYang_newADdrv.xpr
+INFO: [Project 1-313] Project file moved from 'D:/XiongMao2025/SHR/20250305_JinYang_newADdrv' since last save.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/XiongMao2025/SHR/JingYan20250211/xinbanjian_20240820.srcs/sources_1/imports/src/new/XvrtIq_VZ5T.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/XiongMao2025/SHR/carryfastsyc10mstempffilterbrkfrtFirstf_cTCom/xinbanjian_20240820.srcs/sources_1/imports/src/new/NewARM_comm202410/FifoSelZ.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/XiongMao2025/SHR/JingYan20250211/xinbanjian_20240820.srcs/sources_1/imports/src/new/APWMTimeK24_V2.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/XiongMao2025/SHR/carryfastsyc10mstempffilterbrkfrtFirstf_cTCom/xinbanjian_20240820.srcs/sources_1/imports/src/new/NewARM_comm202410/DPRAM_LONG_Z.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/XiongMao2025/SHR/carryfastsyc10mstempffilterbrkfrtFirstf_cTComV2_H8B/xinbanjian_20240820.srcs/sources_1/imports/src/new/NewARM_comm202410/CaseZ.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/XiongMao2025/xinbanjian_2024.8.2/xinbanjian_2024.8.2.srcs/sim_1/imports/Work_InvControlLoop3L_V40a/InvControlLoop3L_V40b_2.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/SHR_2024/xinbanjian_2024.8.8 PR/xinbanjian_2024.8.8.srcs/sources_1/imports/src/new/L3_UnB_VZ6.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx2025_1/Vivado/2018.2/data/ip'.
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'open_project' was update_comexit
+INFO: [Common 17-206] Exiexit
+INFO: [Common 17-206] Exiting Vivado at Sat Mar  8 17:30:34 2025...
+ Could not getCurrentGraph()
+INFO: [filemgmt 56-326] User Interrupt. Could not getCurrentGraph()

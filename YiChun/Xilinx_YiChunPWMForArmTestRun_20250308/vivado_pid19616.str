@@ -1,0 +1,1211 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 19616
+License: Customer
+
+Current time: 	Sun Mar 09 10:02:07 CST 2025
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 43 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx2025_1/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Xilinx2025_1/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	zoujun
+User home directory: C:/Users/zoujun
+User working directory: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: C:/Xilinx2025_1/Vivado
+HDI_APPROOT: C:/Xilinx2025_1/Vivado/2018.2
+RDI_DATADIR: C:/Xilinx2025_1/Vivado/2018.2/data
+RDI_BINDIR: C:/Xilinx2025_1/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/zoujun/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/zoujun/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/zoujun/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Xilinx2025_1/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/vivado.log
+Vivado journal file location: 	D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/vivado.jou
+Engine tmp dir: 	D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/.Xil/Vivado-19616-DESKTOP-LIMK86K
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx2025_1/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx2025_1/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx2025_1/Vivado/2018.2
+XILINX_SDK: C:/Xilinx2025_1/SDK/2018.2
+XILINX_VIVADO: C:/Xilinx2025_1/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Xilinx2025_1/Vivado/2018.2
+
+
+GUI allocated memory:	135 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 604 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 66 MB (+67244kb) [00:00:05]
+// [Engine Memory]: 492 MB (+364866kb) [00:00:05]
+// Opening Vivado Project: D:\XiongMao2025\SHR\20250305_JinYang_newADdrvToYiChunPWM\20250303_JinYang_newADdrv.xpr. Version: Vivado v2018.2 
+// bx (ck):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// [Engine Memory]: 604 MB (+90818kb) [00:00:08]
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 606 MB. GUI used memory: 34 MB. Current time: 3/9/25 10:02:09 AM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 638 MB (+3921kb) [00:00:12]
+// [Engine Memory]: 672 MB (+2780kb) [00:00:13]
+// [GUI Memory]: 76 MB (+6261kb) [00:00:13]
+// [Engine Memory]: 710 MB (+3975kb) [00:00:13]
+// Tcl Message: open_project D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/XiongMao2025/SHR/20250305_JinYang_newADdrv' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx2025_1/Vivado/2018.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 880.414 ; gain = 190.316 
+// Project name: 20250303_JinYang_newADdrv; location: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM; part: xc7s75fgga484-2
+dismissDialog("Open Project"); // bx (ck)
+// [GUI Memory]: 87 MB (+7642kb) [00:00:15]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// a (ck): Critical Messages: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 746 MB (+637kb) [00:00:18]
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 14 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (ck)
+// [GUI Memory]: 94 MB (+3259kb) [00:00:31]
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, "Add"); // B (f, c)
+// HMemoryUtils.trashcanNow. Engine heap size: 774 MB. GUI used memory: 56 MB. Current time: 3/9/25 10:02:34 AM CST
+selectMenuItem(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // ad (aj, c)
+// [Engine Memory]: 786 MB (+2811kb) [00:01:12]
+// Elapsed time: 47 seconds
+dismissFileChooser();
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// Elapsed time: 35 seconds
+setFileChooser("D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/sources_1/imports/src/new/AnpcPwmErrChk.v");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 89 seconds
+dismissDialog("Add Sources"); // c (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/sources_1/imports/src/new/AnpcPwmErrChk.v 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv)]", 2); // B (D, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 803 MB. GUI used memory: 56 MB. Current time: 3/9/25 10:04:04 AM CST
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 63 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Launch External Editor: 'C:/Program Files (x86)/Notepad++/notepad++.exe "D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/sources_1/imports/src/new/NEPCS_100_V01_Top.sv"'
+// [GUI Memory]: 99 MB (+216kb) [00:04:20]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 106 MB (+1908kb) [00:05:30]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 824 MB. GUI used memory: 58 MB. Current time: 3/9/25 10:08:24 AM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 826 MB (+747kb) [00:06:46]
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 112 MB (+217kb) [00:09:46]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 845 MB. GUI used memory: 58 MB. Current time: 3/9/25 10:14:04 AM CST
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 697 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv)]", 2); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv), NEPCS_100_V01_PLD_Inst : NEPCS_100_V01_PLD (NEPCS_100_V01_PLD_xiongmao.v)]", 11, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv), NEPCS_100_V01_PLD_Inst : NEPCS_100_V01_PLD (NEPCS_100_V01_PLD_xiongmao.v), AdSubZero_V1_Inst5 : AdSubZero_V1 (AdSubZero_V1.v)]", 17, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Launch External Editor: 'C:/Program Files (x86)/Notepad++/notepad++.exe "D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/sources_1/imports/src/NEPCS_100_V01_PLD_xiongmao.v"'
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 64 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv), NEPCS_100_V01_PLD_Inst : NEPCS_100_V01_PLD (NEPCS_100_V01_PLD_xiongmao.v)]", 11, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv), NEPCS_100_V01_PLD_Inst : NEPCS_100_V01_PLD (NEPCS_100_V01_PLD_xiongmao.v)]", 11, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Launch External Editor: 'C:/Program Files (x86)/Notepad++/notepad++.exe "D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/sources_1/imports/src/NEPCS_100_V01_PLD_xiongmao.v"'
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 200 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bx (ck)
+// TclEventType: RUN_LAUNCH
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// Tcl Message: [Sun Mar  9 10:21:15 2025] Launched synth_1... Run output will be captured here: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.runs/synth_1/runme.log [Sun Mar  9 10:21:15 2025] Launched impl_1... Run output will be captured here: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 865 MB. GUI used memory: 52 MB. Current time: 3/9/25 10:21:19 AM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 340 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Launch External Editor: 'C:/Program Files (x86)/Notepad++/notepad++.exe "D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/sources_1/imports/src/new/NEPCS_100_V01_Top.sv"'
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 124 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv), ClkPulse_Gen_Inst : ClkPulse_Gen (ClkPulse_Gen.v)]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Launch External Editor: 'C:/Program Files (x86)/Notepad++/notepad++.exe "D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/sources_1/imports/src/new/NEPCS_100_V01_Top.sv"'
+// Elapsed time: 24 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Launch External Editor: 'C:/Program Files (x86)/Notepad++/notepad++.exe "D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/sources_1/imports/src/new/NEPCS_100_V01_Top.sv"'
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, ck)
+// bx (ck):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.StateMonitor_OK_TO_CANCEL_YOUR_RUNNING_SYNTHESIS_Cancel Process", "Cancel Process"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bx (ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv)]", 2); // B (D, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 868 MB (+1180kb) [00:30:02]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 166 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bx (ck):  Resetting Runs : addNotify
+dismissDialog("Resetting Runs"); // bx (ck)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// TclEventType: RUN_LAUNCH
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Mar  9 10:32:25 2025] Launched synth_1... Run output will be captured here: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.runs/synth_1/runme.log [Sun Mar  9 10:32:25 2025] Launched impl_1... Run output will be captured here: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// TclEventType: RUN_FAILED
+// ah (ck): Synthesis Failed: addNotify
+// Elapsed time: 25 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-2543] port connections cannot be mixed ordered and named [D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/sources_1/imports/src/NEPCS_100_V01_PLD_xiongmao.v:788]. ]", 5, false); // ah (O, ck)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\XiongMao2025\SHR\20250305_JinYang_newADdrvToYiChunPWM\20250303_JinYang_newADdrv.srcs\sources_1\imports\src\NEPCS_100_V01_PLD_xiongmao.v;-;;-;16;-;line;-;788;-;;-;16;-;"); // ah (O, ck)
+// Launch External Editor: 'C:/Program Files (x86)/Notepad++/notepad++.exe "D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/sources_1/imports/src/NEPCS_100_V01_PLD_xiongmao.v"'
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bx (ck)
+// TclEventType: DG_GRAPH_GENERATED
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Mar  9 10:33:12 2025] Launched synth_1... Run output will be captured here: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.runs/synth_1/runme.log [Sun Mar  9 10:33:12 2025] Launched impl_1... Run output will be captured here: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+selectCheckBox(PAResourceItoN.MsgView_ERROR_MESSAGES, (String) null, false); // g (aQ, ck): FALSE
+// TclEventType: RUN_FAILED
+// ah (ck): Synthesis Failed: addNotify
+// Elapsed time: 17 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 75 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bx (ck)
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Mar  9 10:34:48 2025] Launched synth_1... Run output will be captured here: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.runs/synth_1/runme.log [Sun Mar  9 10:34:48 2025] Launched impl_1... Run output will be captured here: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.runs/impl_1/runme.log 
+// [GUI Memory]: 118 MB (+896kb) [00:32:49]
+dismissDialog("Generate Bitstream"); // bx (ck)
+selectCheckBox(PAResourceItoN.MsgView_ERROR_MESSAGES, (String) null, false); // g (aQ, ck): FALSE
+// TclEventType: RUN_FAILED
+// ah (ck): Synthesis Failed: addNotify
+// Elapsed time: 16 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 63 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bx (ck)
+// TclEventType: RUN_LAUNCH
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// Tcl Message: [Sun Mar  9 10:36:11 2025] Launched synth_1... Run output will be captured here: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.runs/synth_1/runme.log [Sun Mar  9 10:36:11 2025] Launched impl_1... Run output will be captured here: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+selectCheckBox(PAResourceItoN.MsgView_ERROR_MESSAGES, (String) null, false); // g (aQ, ck): FALSE
+// TclEventType: RUN_FAILED
+// ah (ck): Synthesis Failed: addNotify
+// Elapsed time: 15 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 30 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bx (ck)
+// TclEventType: RUN_LAUNCH
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// Tcl Message: [Sun Mar  9 10:36:59 2025] Launched synth_1... Run output will be captured here: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.runs/synth_1/runme.log [Sun Mar  9 10:36:59 2025] Launched impl_1... Run output will be captured here: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+selectCheckBox(PAResourceItoN.MsgView_ERROR_MESSAGES, (String) null, false); // g (aQ, ck): FALSE
+// Elapsed time: 22 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Launch External Editor: 'C:/Program Files (x86)/Notepad++/notepad++.exe "D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/sources_1/imports/src/new/NEPCS_100_V01_Top.sv"'
+// TclEventType: RUN_FAILED
+// ah (ck): Synthesis Failed: addNotify
+// [GUI Memory]: 124 MB (+228kb) [00:36:02]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 885 MB. GUI used memory: 46 MB. Current time: 3/9/25 10:38:14 AM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 180 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 92 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv)]", 2); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv), fsm_inst : NEPCS_100_V01_FSM (NEPCS_100_V01_FSM.v)]", 10, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv), fsm_inst : NEPCS_100_V01_FSM (NEPCS_100_V01_FSM.v)]", 10, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Launch External Editor: 'C:/Program Files (x86)/Notepad++/notepad++.exe "D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/sources_1/imports/src/NEPCS_100_V01_FSM.v"'
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 193 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv), ARM_comm_Inst : ARM_commZJ (ARM_commZJ.v)]", 5, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv), ARM_comm_Inst : ARM_commZJ (ARM_commZJ.v)]", 5, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv), ARM_comm_Inst : ARM_commZJ (ARM_commZJ.v), DramInst0 : DPRAMZ (DPRAMZ.v)]", 6, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Launch External Editor: 'C:/Program Files (x86)/Notepad++/notepad++.exe "D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/sources_1/imports/src/new/NewARM_comm202410/ARM_commZJ.v"'
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 905 MB. GUI used memory: 45 MB. Current time: 3/9/25 10:50:45 AM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 467 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv), ARM_comm_Inst : ARM_commZJ (ARM_commZJ.v), FaultDramInstPWMW1 : DPRAM_LONG_Z (DPRAM_LONG_Z.v)]", 15, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv), ARM_comm_Inst : ARM_commZJ (ARM_commZJ.v), FaultDramInstPWMW1 : DPRAM_LONG_Z (DPRAM_LONG_Z.v)]", 15, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Launch External Editor: 'C:/Program Files (x86)/Notepad++/notepad++.exe "D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/sources_1/imports/src/new/NewARM_comm202410/DPRAM_LONG_Z.v"'
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 381 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Launch External Editor: 'C:/Program Files (x86)/Notepad++/notepad++.exe "D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/sources_1/imports/src/new/NEPCS_100_V01_Top.sv"'
+// Elapsed time: 12 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv)]", 2); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv), ARM_comm_Inst : ARM_commZJ (ARM_commZJ.v)]", 5); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv), InvControlLoop_V40b_Inst : InvControlLoop3L_V40b (InvControlLoop3L_V40b.v)]", 15, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv), InvControlLoop_V40b_Inst : InvControlLoop3L_V40b (InvControlLoop3L_V40b.v), u_Filter_Ram : SimpDualPortRAM_Wrapper_generic (SimpDualPortRAM_Wrapper_generic.v)]", 21, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Launch External Editor: 'C:/Program Files (x86)/Notepad++/notepad++.exe "D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/sources_1/imports/src/Work_InvControlLoop3L_V40a/InvControlLoop3L_V40b.v"'
+// Elapsed time: 129 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv), InvControlLoop_V40b_Inst : InvControlLoop3L_V40b (InvControlLoop3L_V40b.v)]", 15, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv), InvControlLoop_V40b_Inst : InvControlLoop3L_V40b (InvControlLoop3L_V40b.v)]", 15, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Launch External Editor: 'C:/Program Files (x86)/Notepad++/notepad++.exe "D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/sources_1/imports/src/Work_InvControlLoop3L_V40a/InvControlLoop3L_V40b.v"'
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 912 MB (+52kb) [01:04:55]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 925 MB. GUI used memory: 43 MB. Current time: 3/9/25 11:20:30 AM CST
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 1625 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bx (ck)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// TclEventType: RUN_LAUNCH
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Mar  9 11:29:02 2025] Launched synth_1... Run output will be captured here: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.runs/synth_1/runme.log [Sun Mar  9 11:29:02 2025] Launched impl_1... Run output will be captured here: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+selectCheckBox(PAResourceItoN.MsgView_ERROR_MESSAGES, (String) null, false); // g (aQ, ck): FALSE
+// TclEventType: RUN_FAILED
+// ah (ck): Synthesis Failed: addNotify
+// Elapsed time: 59 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-2715] syntax error near wire [D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/sources_1/imports/src/new/NEPCS_100_V01_Top.sv:816]. ]", 10, false); // ah (O, ck)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\XiongMao2025\SHR\20250305_JinYang_newADdrvToYiChunPWM\20250303_JinYang_newADdrv.srcs\sources_1\imports\src\new\NEPCS_100_V01_Top.sv;-;;-;16;-;line;-;816;-;;-;16;-;"); // ah (O, ck)
+// Launch External Editor: 'C:/Program Files (x86)/Notepad++/notepad++.exe "D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/sources_1/imports/src/new/NEPCS_100_V01_Top.sv"'
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-2715] syntax error near wire [D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/sources_1/imports/src/new/NEPCS_100_V01_Top.sv:816]. ]", 10, false, false, false, false, false, true); // ah (O, ck) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bx (ck)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Mar  9 11:30:29 2025] Launched synth_1... Run output will be captured here: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.runs/synth_1/runme.log [Sun Mar  9 11:30:29 2025] Launched impl_1... Run output will be captured here: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// TclEventType: RUN_FAILED
+// ah (ck): Synthesis Failed: addNotify
+// Elapsed time: 21 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-1031] PulseCarryx16_Hz is not declared [D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/sources_1/imports/src/new/NEPCS_100_V01_Top.sv:816]. ]", 5, false); // ah (O, ck)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\XiongMao2025\SHR\20250305_JinYang_newADdrvToYiChunPWM\20250303_JinYang_newADdrv.srcs\sources_1\imports\src\new\NEPCS_100_V01_Top.sv;-;;-;16;-;line;-;816;-;;-;16;-;"); // ah (O, ck)
+// Launch External Editor: 'C:/Program Files (x86)/Notepad++/notepad++.exe "D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/sources_1/imports/src/new/NEPCS_100_V01_Top.sv"'
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 33 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bx (ck)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// TclEventType: RUN_LAUNCH
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Mar  9 11:31:31 2025] Launched synth_1... Run output will be captured here: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.runs/synth_1/runme.log [Sun Mar  9 11:31:31 2025] Launched impl_1... Run output will be captured here: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+selectCheckBox(PAResourceItoN.MsgView_ERROR_MESSAGES, (String) null, false); // g (aQ, ck): FALSE
+// TclEventType: RUN_FAILED
+// ah (ck): Synthesis Failed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 946 MB. GUI used memory: 43 MB. Current time: 3/9/25 11:32:05 AM CST
+// Elapsed time: 139 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 32 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bx (ck)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// TclEventType: RUN_LAUNCH
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Mar  9 11:34:24 2025] Launched synth_1... Run output will be captured here: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.runs/synth_1/runme.log [Sun Mar  9 11:34:24 2025] Launched impl_1... Run output will be captured here: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 44 seconds
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, ck)
+// bx (ck):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.StateMonitor_OK_TO_CANCEL_YOUR_RUNNING_SYNTHESIS_Cancel Process", "Cancel Process"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bx (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bx (ck):  Resetting Runs : addNotify
+dismissDialog("Resetting Runs"); // bx (ck)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// TclEventType: RUN_LAUNCH
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Mar  9 11:35:12 2025] Launched synth_1... Run output will be captured here: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.runs/synth_1/runme.log [Sun Mar  9 11:35:12 2025] Launched impl_1... Run output will be captured here: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+selectCheckBox(PAResourceItoN.MsgView_ERROR_MESSAGES, (String) null, false); // g (aQ, ck): FALSE
+// Elapsed time: 321 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Launch External Editor: 'C:/Program Files (x86)/Notepad++/notepad++.exe "D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/sources_1/imports/src/new/NEPCS_100_V01_Top.sv"'
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 163 seconds
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, ck)
+// bx (ck):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.StateMonitor_OK_TO_CANCEL_YOUR_RUNNING_SYNTHESIS_Cancel Process", "Cancel Process"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bx (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bx (ck):  Resetting Runs : addNotify
+dismissDialog("Resetting Runs"); // bx (ck)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Mar  9 11:43:22 2025] Launched synth_1... Run output will be captured here: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.runs/synth_1/runme.log [Sun Mar  9 11:43:22 2025] Launched impl_1... Run output will be captured here: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// TclEventType: RUN_COMPLETED
+// [Engine Memory]: 958 MB (+656kb) [01:53:33]
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 959 MB. GUI used memory: 46 MB. Current time: 3/9/25 12:02:05 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 966 MB. GUI used memory: 47 MB. Current time: 3/9/25 12:07:00 PM CST
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 2701 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 970 MB. GUI used memory: 47 MB. Current time: 3/9/25 12:37:01 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 971 MB. GUI used memory: 47 MB. Current time: 3/9/25 1:07:05 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 971 MB. GUI used memory: 47 MB. Current time: 3/9/25 1:37:05 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 971 MB. GUI used memory: 46 MB. Current time: 3/9/25 2:07:05 PM CST
+// Elapsed time: 7537 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv), ClkPulse_Gen_Inst : ClkPulse_Gen (ClkPulse_Gen.v)]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Launch External Editor: 'C:/Program Files (x86)/Notepad++/notepad++.exe "D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/sources_1/imports/src/new/NEPCS_100_V01_Top.sv"'
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 108 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bx (ck)
+// TclEventType: RUN_LAUNCH
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// Tcl Message: [Sun Mar  9 14:35:52 2025] Launched synth_1... Run output will be captured here: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.runs/synth_1/runme.log [Sun Mar  9 14:35:52 2025] Launched impl_1... Run output will be captured here: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 971 MB. GUI used memory: 43 MB. Current time: 3/9/25 2:37:06 PM CST
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 971 MB. GUI used memory: 46 MB. Current time: 3/9/25 3:07:06 PM CST
+// Elapsed time: 2188 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bx (ck):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// [Engine Memory]: 1,031 MB (+25925kb) [05:10:26]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,063 MB. GUI used memory: 46 MB. Current time: 3/9/25 3:12:26 PM CST
+// [Engine Memory]: 1,211 MB (+135199kb) [05:10:31]
+// [Engine Memory]: 1,370 MB (+102757kb) [05:10:36]
+// [Engine Memory]: 1,483 MB (+47417kb) [05:10:41]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,491 MB. GUI used memory: 46 MB. Current time: 3/9/25 3:12:41 PM CST
+// [Engine Memory]: 1,588 MB (+31575kb) [05:10:46]
+// TclEventType: SDC_CONSTRAINT_ADD
+// [Engine Memory]: 1,899 MB (+242970kb) [05:10:51]
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,922 MB. GUI used memory: 46 MB. Current time: 3/9/25 3:12:55 PM CST
+// TclEventType: DESIGN_NEW
+// Package: addNotify
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 5723 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.2 INFO: [Device 21-403] Loading part xc7s75fgga484-2 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Constraints 18-4398] Generator version for shapeDB does not match. shapeDB will be regenerated. INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2137.562 ; gain = 39.727 
+// Tcl Message: Restored from archive | CPU: 6.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2137.562 ; gain = 39.727 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 716 instances were transformed.   IOBUF => IOBUF (IBUF, OBUFT): 8 instances   RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 4 instances   RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 630 instances   RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 74 instances  
+// ExpRunCommands.openImplResults elapsed time: 37.5s
+// TclEventType: DRC_ADDED
+// Tcl Message: open_run: Time (s): cpu = 00:00:40 ; elapsed = 00:00:37 . Memory (MB): peak = 2190.492 ; gain = 1097.953 
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// TclEventType: DRC_ADDED
+// [Engine Memory]: 1,998 MB (+4954kb) [05:10:59]
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// [Engine Memory]: 2,100 MB (+1689kb) [05:11:01]
+// [GUI Memory]: 134 MB (+3887kb) [05:11:05]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 9.6s
+// [GUI Memory]: 141 MB (+278kb) [05:11:06]
+// [Engine Memory]: 2,206 MB (+686kb) [05:11:07]
+// TclEventType: TIMING_SUMMARY_UPDATED
+// [GUI Memory]: 150 MB (+1852kb) [05:11:08]
+// 'dP' command handler elapsed time: 47 seconds
+// S (ck): Critical Messages: addNotify
+// Elapsed time: 47 seconds
+dismissDialog("Open Implemented Design"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,251 MB. GUI used memory: 119 MB. Current time: 3/9/25 3:13:11 PM CST
+// Elapsed time: 70 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (S)
+dismissDialog("Critical Messages"); // S (ck)
+// Elapsed time: 19 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Implementation", "Implemented Design", "DesignTask.RESULTS_ANALYSIS");
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,251 MB. GUI used memory: 71 MB. Current time: 3/9/25 3:14:39 PM CST
+// TclEventType: TIMING_RESULTS_UNLOAD
+// Engine heap size: 2,251 MB. GUI used memory: 72 MB. Current time: 3/9/25 3:14:39 PM CST
+// TclEventType: CURR_DESIGN_SET
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: close_design 
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Project Manager", "Project Manager", "DesignTask.PROJECT_MANAGER");
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// bx (ck):  Close Project : addNotify
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,251 MB. GUI used memory: 45 MB. Current time: 3/9/25 3:14:40 PM CST
+// Tcl Message: close_project 
+dismissDialog("Close Project"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,251 MB. GUI used memory: 42 MB. Current time: 3/9/25 3:44:41 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,251 MB. GUI used memory: 41 MB. Current time: 3/9/25 4:14:42 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,251 MB. GUI used memory: 40 MB. Current time: 3/9/25 4:44:42 PM CST
+// Elapsed time: 5875 seconds
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.xpr", 0); // q (O, ck)
+// Opening Vivado Project: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.xpr. Version: Vivado v2018.2 
+// bx (ck):  Open Project : addNotify
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// Tcl Message: open_project D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.xpr 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx2025_1/Vivado/2018.2/data/ip'. 
+// Project name: 20250303_JinYang_newADdrv; location: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM; part: xc7s75fgga484-2
+// Tcl Message: open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2486.855 ; gain = 0.000 
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// a (ck): Critical Messages: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (ck)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv)]", 2); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv), NEPCS_100_V01_PLD_Inst : NEPCS_100_V01_PLD (NEPCS_100_V01_PLD_xiongmao.v)]", 11, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NEPCS_3000_S7 (NEPCS_100_V01_Top.sv), NEPCS_100_V01_PLD_Inst : NEPCS_100_V01_PLD (NEPCS_100_V01_PLD_xiongmao.v), AdSubZero_V1_Inst3 : AdSubZero_V1 (AdSubZero_V1.v)]", 15, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Launch External Editor: 'C:/Program Files (x86)/Notepad++/notepad++.exe "D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.srcs/sources_1/imports/src/NEPCS_100_V01_PLD_xiongmao.v"'

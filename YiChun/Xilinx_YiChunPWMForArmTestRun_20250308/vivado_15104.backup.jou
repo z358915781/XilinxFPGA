@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Mar  7 10:58:35 2025
+# Process ID: 15104
+# Current directory: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChun
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14940 D:\XiongMao2025\SHR\20250305_JinYang_newADdrvToYiChun\20250303_JinYang_newADdrv.xpr
+# Log file: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChun/vivado.log
+# Journal file: D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChun\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChun/20250303_JinYang_newADdrv.xpr
+update_compile_order -fileset sources_1

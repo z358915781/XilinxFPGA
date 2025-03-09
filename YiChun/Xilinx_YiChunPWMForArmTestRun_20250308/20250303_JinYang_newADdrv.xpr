@@ -1,0 +1,1378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2018.2 (64-bit)              -->
+<!--                                                         -->
+<!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
+
+<Project Version="7" Minor="38" Path="D:/XiongMao2025/SHR/20250305_JinYang_newADdrvToYiChunPWM/20250303_JinYang_newADdrv.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="50917d6557d84aa39b19d7a9ada1a6f6"/>
+    <Option Name="Part" Val="xc7s75fgga484-2"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="CompiledLibDirXSim" Val=""/>
+    <Option Name="CompiledLibDirModelSim" Val="$PCACHEDIR/compile_simlib/modelsim"/>
+    <Option Name="CompiledLibDirQuesta" Val="$PCACHEDIR/compile_simlib/questa"/>
+    <Option Name="CompiledLibDirIES" Val="$PCACHEDIR/compile_simlib/ies"/>
+    <Option Name="CompiledLibDirXcelium" Val="$PCACHEDIR/compile_simlib/xcelium"/>
+    <Option Name="CompiledLibDirVCS" Val="$PCACHEDIR/compile_simlib/vcs"/>
+    <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
+    <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
+    <Option Name="BoardPart" Val=""/>
+    <Option Name="ActiveSimSet" Val="sim_1"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+    <Option Name="ProjectType" Val="Default"/>
+    <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
+    <Option Name="IPCachePermission" Val="read"/>
+    <Option Name="IPCachePermission" Val="write"/>
+    <Option Name="EnableCoreContainer" Val="FALSE"/>
+    <Option Name="CreateRefXciForCoreContainers" Val="FALSE"/>
+    <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
+    <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
+    <Option Name="EnableBDX" Val="FALSE"/>
+    <Option Name="DSAVendor" Val="xilinx"/>
+    <Option Name="DSANumComputeUnits" Val="60"/>
+    <Option Name="WTXSimLaunchSim" Val="1"/>
+    <Option Name="WTModelSimLaunchSim" Val="0"/>
+    <Option Name="WTQuestaLaunchSim" Val="0"/>
+    <Option Name="WTIesLaunchSim" Val="0"/>
+    <Option Name="WTVcsLaunchSim" Val="0"/>
+    <Option Name="WTRivieraLaunchSim" Val="0"/>
+    <Option Name="WTActivehdlLaunchSim" Val="0"/>
+    <Option Name="WTXSimExportSim" Val="43"/>
+    <Option Name="WTModelSimExportSim" Val="43"/>
+    <Option Name="WTQuestaExportSim" Val="43"/>
+    <Option Name="WTIesExportSim" Val="43"/>
+    <Option Name="WTVcsExportSim" Val="43"/>
+    <Option Name="WTRivieraExportSim" Val="43"/>
+    <Option Name="WTActivehdlExportSim" Val="43"/>
+    <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
+    <Option Name="XSimRadix" Val="hex"/>
+    <Option Name="XSimTimeUnit" Val="ns"/>
+    <Option Name="XSimArrayDisplayLimit" Val="1024"/>
+    <Option Name="XSimTraceLimit" Val="65536"/>
+    <Option Name="SimTypes" Val="rtl"/>
+    <Option Name="SimTypes" Val="bfm"/>
+    <Option Name="SimTypes" Val="tlm"/>
+    <Option Name="SimTypes" Val="tlm_dpi"/>
+    <Option Name="MEMEnableMemoryMapGeneration" Val="TRUE"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/ip/sintab/sintab.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/ip/sintab/sintab.xci"/>
+          <Attr Name="ImportTime" Val="1695196193"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/mmcm0/mmcm0.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/ip/mmcm0/mmcm0.xci"/>
+          <Attr Name="ImportTime" Val="1695197033"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/ABC2DQ_V10.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../JingYan20250211/xinbanjian_20240820.srcs/sources_1/imports/src/new/ABC2DQ_V10.v"/>
+          <Attr Name="ImportTime" Val="1738814878"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/AD7607Drv_VZ10.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/APWMTimeK24_V1.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../carryfastsyc10mstempffilterbrkfrtFirstf_cTComV2_H8B/xinbanjian_20240820.srcs/sources_1/imports/src/new/APWMTimeK24_V1.v"/>
+          <Attr Name="ImportTime" Val="1732092523"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/NewARM_comm202410/ARM_commZJ.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../carryfastsyc10mstempffilterbrkfrtFirstf_cTComV2_H8B/xinbanjian_20240820.srcs/sources_1/imports/src/new/NewARM_comm202410/ARM_commZJ.v"/>
+          <Attr Name="ImportTime" Val="1731921374"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/Abs_b12_V3.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../JingYan20250211/xinbanjian_20240820.srcs/sources_1/imports/src/new/Abs_b12_V3.v"/>
+          <Attr Name="ImportTime" Val="1725866196"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_AdSubZero_V1/AdSubZero_V1.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_AdSubZero_V1/AdSubZero_V1.v"/>
+          <Attr Name="ImportTime" Val="1531311786"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/AddSub_b16_V1.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../carryfastsyc10mstempffilterbrkfrtFirstf_cTComV2_H8B/xinbanjian_20240820.srcs/sources_1/imports/src/new/AddSub_b16_V1.v"/>
+          <Attr Name="ImportTime" Val="1686722243"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/AnalogMonitorWarn_V10.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../JingYan20250211/xinbanjian_20240820.srcs/sources_1/imports/src/new/AnalogMonitorWarn_V10.v"/>
+          <Attr Name="ImportTime" Val="1739193058"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_AnalogMonitor_V10/AnalogMonitor_V10.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_AnalogMonitor_V10/AnalogMonitor_V10.v"/>
+          <Attr Name="ImportTime" Val="1494491276"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/AnpcPwmErrChk.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/AverFilter8192P_b18_V1.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/AverFilter8192P_b18_V1.v"/>
+          <Attr Name="ImportTime" Val="1653532958"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/AverFilterP128Ch4_V10.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../xinbanjian_2024.7.15/xinbanjian_2024.7.15.srcs/sources_1/imports/src/AverFilterP128Ch4_V10.v"/>
+          <Attr Name="ImportTime" Val="1710330395"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_AverFilterP128Ch4_V11/AverFilterP128Ch4_V11.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_AverFilterP128Ch4_V11/AverFilterP128Ch4_V11.v"/>
+          <Attr Name="ImportTime" Val="1495880772"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/AverFilterP128Ch8_V11.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../xinbanjian_2024.7.15/xinbanjian_2024.7.15.srcs/sources_1/imports/src/AverFilterP128Ch8_V11.v"/>
+          <Attr Name="ImportTime" Val="1715607988"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_AverFilterP32Ch16_V10/AverFilterP32Ch16_V10.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_AverFilterP32Ch16_V10/AverFilterP32Ch16_V10.v"/>
+          <Attr Name="ImportTime" Val="1492070840"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_AverFilterP32Ch8_V10/AverFilterP32Ch8_V10.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_AverFilterP32Ch8_V10/AverFilterP32Ch8_V10.v"/>
+          <Attr Name="ImportTime" Val="1512004890"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_BitFilterCh2_V11a/BitFilterCh2_V11a.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_BitFilterCh2_V11a/BitFilterCh2_V11a.v"/>
+          <Attr Name="ImportTime" Val="1519354782"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_BitFilter_V11/BitFilter_V11.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_BitFilter_V11/BitFilter_V11.v"/>
+          <Attr Name="ImportTime" Val="1685158162"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/BitFilter_VC1.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../xinbanjian_2024.7.15/xinbanjian_2024.7.15.srcs/sources_1/imports/src/BitFilter_VC1.v"/>
+          <Attr Name="ImportTime" Val="1682576689"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/CBC_V1.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../JingYan20250211/xinbanjian_20240820.srcs/sources_1/imports/src/new/CBC_V1.v"/>
+          <Attr Name="ImportTime" Val="1733227990"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_CabinetHeatOV_V10/CabinetHeatOV_V10.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_CabinetHeatOV_V10/CabinetHeatOV_V10.v"/>
+          <Attr Name="ImportTime" Val="1496912502"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Drv/ClkPulse_Gen.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Drv/ClkPulse_Gen.v"/>
+          <Attr Name="ImportTime" Val="1639212042"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/NewARM_comm202410/DPRAMZ.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../carryfastsyc10mstempffilterbrkfrtFirstf_cTComV2_H8B/xinbanjian_20240820.srcs/sources_1/imports/src/new/NewARM_comm202410/DPRAMZ.v"/>
+          <Attr Name="ImportTime" Val="1726837662"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/NewARM_comm202410/DPRAM_LONG_Z.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../carryfastsyc10mstempffilterbrkfrtFirstf_cTComV2_H8B/xinbanjian_20240820.srcs/sources_1/imports/src/new/NewARM_comm202410/DPRAM_LONG_Z.v"/>
+          <Attr Name="ImportTime" Val="1729262948"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/FaultRey_VZ2.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../SHR_V2/20240816_zoujun/20240816_zoujun.srcs/sources_1/imports/src/FaultRey_VZ2.v"/>
+          <Attr Name="ImportTime" Val="1724051136"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_Fiber/FiberToCarrySync_V10.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../xinbanjian_2024.7.15/xinbanjian_2024.7.15.srcs/sources_1/imports/src/Work_Fiber/FiberToCarrySync_V10.v"/>
+          <Attr Name="ImportTime" Val="1626352815"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/NewARM_comm202410/FifoSelZ.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../carryfastsyc10mstempffilterbrkfrtFirstf_cTComV2_H8B/xinbanjian_20240820.srcs/sources_1/imports/src/new/NewARM_comm202410/FifoSelZ.v"/>
+          <Attr Name="ImportTime" Val="1732152786"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/FreqActivePower/FreqActivePower_VZ5.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/FreqActivePower/FreqActivePower_VZ5.v"/>
+          <Attr Name="ImportTime" Val="1652666812"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_FrequencyMonitor_V10/FrequencyMonitor_V10.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_FrequencyMonitor_V10/FrequencyMonitor_V10.v"/>
+          <Attr Name="ImportTime" Val="1495518462"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_GridPll_V20/GridPll_V20.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_GridPll_V20/GridPll_V20.v"/>
+          <Attr Name="ImportTime" Val="1679453269"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/IGBTErrChk.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../JingYan20250211/xinbanjian_20240820.srcs/sources_1/imports/src/new/IGBTErrChk.v"/>
+          <Attr Name="ImportTime" Val="1735043374"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/IacLmt_VZ1.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../JingYan20250211/xinbanjian_20240820.srcs/sources_1/imports/src/new/IacLmt_VZ1.v"/>
+          <Attr Name="ImportTime" Val="1736304917"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_InsVoltCurrMonitor_V20/InsVoltCurrMonitor_V21.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_InsVoltCurrMonitor_V20/InsVoltCurrMonitor_V21.v"/>
+          <Attr Name="ImportTime" Val="1645077054"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_InvControlLoop3L_V40a/InvControlLoop3L_V40b.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../xinbanjian_2024.7.15/xinbanjian_2024.7.15.srcs/sources_1/imports/src/Work_InvControlLoop3L_V40a/InvControlLoop3L_V40b.v"/>
+          <Attr Name="ImportTime" Val="1722050941"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_IsLandDetectLogic_V30/IsLandDetectLogic_V30.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_IsLandDetectLogic_V30/IsLandDetectLogic_V30.v"/>
+          <Attr Name="ImportTime" Val="1633956458"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_IsLandDetect_V10/IsLandDetect_V10_block.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_IsLandDetect_V10/IsLandDetect_V10_block.v"/>
+          <Attr Name="ImportTime" Val="1623223494"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/L3_UnB_Z13.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../carryfastsyc10mstempffilterbrkfrtFirstf_cTComV2_H8B/xinbanjian_20240820.srcs/sources_1/imports/src/new/L3_UnB_Z13.v"/>
+          <Attr Name="ImportTime" Val="1723798178"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_InvControlLoop3L_V40a/LmtB16_V1.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../xinbanjian_2024.7.15/xinbanjian_2024.7.15.srcs/sources_1/imports/src/Work_InvControlLoop3L_V40a/LmtB16_V1.v"/>
+          <Attr Name="ImportTime" Val="1656036038"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_InvControlLoop3L_V40a/LoadMabc_VZ3.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../xinbanjian_2024.7.15/xinbanjian_2024.7.15.srcs/sources_1/imports/src/Work_InvControlLoop3L_V40a/LoadMabc_VZ3.v"/>
+          <Attr Name="ImportTime" Val="1721863073"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_InvControlLoop3L_V40a/Msel_V1.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../xinbanjian_2024.7.15/xinbanjian_2024.7.15.srcs/sources_1/imports/src/Work_InvControlLoop3L_V40a/Msel_V1.v"/>
+          <Attr Name="ImportTime" Val="1680612556"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_MulMpy_V10/MulMpy_V10.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_MulMpy_V10/MulMpy_V10.v"/>
+          <Attr Name="ImportTime" Val="1491996440"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/NEPCS_100_V01_FSM.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/NEPCS_100_V01_FSM.v"/>
+          <Attr Name="ImportTime" Val="1717041262"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/NEPCS_100_V01_PLD_xiongmao.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../xinbanjian_2024.7.15/xinbanjian_2024.7.15.srcs/sources_1/imports/src/NEPCS_100_V01_PLD_xiongmao.v"/>
+          <Attr Name="ImportTime" Val="1722391551"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/NegPro_V2.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../SHR_V2/20240816_zoujun/20240816_zoujun.srcs/sources_1/imports/src/NegPro_V2.v"/>
+          <Attr Name="ImportTime" Val="1723795592"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_NegSeqPhaseAdj_V10/NegSeqPhaseAdj_V10.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_NegSeqPhaseAdj_V10/NegSeqPhaseAdj_V10.v"/>
+          <Attr Name="ImportTime" Val="1573192760"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/OffDly_V1.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/OffDly_V1.v"/>
+          <Attr Name="ImportTime" Val="1645547122"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_OnDelay2s_V11/OnDelay2s_V11.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_OnDelay2s_V11/OnDelay2s_V11.v"/>
+          <Attr Name="ImportTime" Val="1497947650"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_OnDelay4s_V11/OnDelay4s_V11.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_OnDelay4s_V11/OnDelay4s_V11.v"/>
+          <Attr Name="ImportTime" Val="1495885676"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_InvControlLoop3L_V40a/PWMTime_V1.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_InvControlLoop3L_V40a/PWMTime_V1.v"/>
+          <Attr Name="ImportTime" Val="1677910338"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_PhaseSequenceDetect_V10/PhaseSequenceDetect_V10.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_PhaseSequenceDetect_V10/PhaseSequenceDetect_V10.v"/>
+          <Attr Name="ImportTime" Val="1503234880"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_VsgCtrlLoopV32/PluseV1.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_VsgCtrlLoopV32/PluseV1.v"/>
+          <Attr Name="ImportTime" Val="1646388468"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/PrdDelay256V2_0.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/PrdDelay256V2_0.v"/>
+          <Attr Name="ImportTime" Val="1653534630"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/sio_wizard_0/Pulse50x1_V1.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../xinbanjian_2024.8.2/xinbanjian_2024.8.2.srcs/sources_1/imports/src/sio_wizard_0/Pulse50x1_V1.v"/>
+          <Attr Name="ImportTime" Val="1630314010"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_PulseSource_V15/PulseSource_V16Z.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_PulseSource_V15/PulseSource_V16Z.v"/>
+          <Attr Name="ImportTime" Val="1636292140"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_RMSP64Ch4_V10/RMSP64Ch4_V10.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_RMSP64Ch4_V10/RMSP64Ch4_V10.v"/>
+          <Attr Name="ImportTime" Val="1494558408"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_RMSP64Ch8_V10/RMSP64Ch8_V10.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_RMSP64Ch8_V10/RMSP64Ch8_V10.v"/>
+          <Attr Name="ImportTime" Val="1495508052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/RR_VZ1.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../SHR_V2/20240816_zoujun/20240816_zoujun.srcs/sources_1/imports/src/RR_VZ1.v"/>
+          <Attr Name="ImportTime" Val="1723442912"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_RelayPulseCtrl_V10/RelayPulseCtrl_CH4_V10.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_RelayPulseCtrl_V10/RelayPulseCtrl_CH4_V10.v"/>
+          <Attr Name="ImportTime" Val="1591347894"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_SinTab8192_V11/RomP8192/RomP8192.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_SinTab8192_V11/RomP8192/RomP8192.v"/>
+          <Attr Name="ImportTime" Val="1683686002"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_RMSP64Ch4_V10/SimpDualPortRAM_Wrapper_256x24b.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_RMSP64Ch4_V10/SimpDualPortRAM_Wrapper_256x24b.v"/>
+          <Attr Name="ImportTime" Val="1494558408"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_AverFilterP32Ch16_V10/SimpDualPortRAM_Wrapper_512x12b.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_AverFilterP32Ch16_V10/SimpDualPortRAM_Wrapper_512x12b.v"/>
+          <Attr Name="ImportTime" Val="1492070846"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_AverFilterP128Ch4_V11/SimpDualPortRAM_Wrapper_512x16b.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_AverFilterP128Ch4_V11/SimpDualPortRAM_Wrapper_512x16b.v"/>
+          <Attr Name="ImportTime" Val="1495880772"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_RMSP64Ch8_V10/SimpDualPortRAM_Wrapper_512x24b.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_RMSP64Ch8_V10/SimpDualPortRAM_Wrapper_512x24b.v"/>
+          <Attr Name="ImportTime" Val="1495508052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/SimpDualPortRAM_Wrapper_generic.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../JingYan20250211/xinbanjian_20240820.srcs/sources_1/imports/src/new/SimpDualPortRAM_Wrapper_generic.v"/>
+          <Attr Name="ImportTime" Val="1739193058"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/SimpDualPortRAM_Wrapper_singlebit.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../JingYan20250211/xinbanjian_20240820.srcs/sources_1/imports/src/new/SimpDualPortRAM_Wrapper_singlebit.v"/>
+          <Attr Name="ImportTime" Val="1739193058"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_RMSP64Ch4_V10/SimpleDualPortRAM_256x24b.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_RMSP64Ch4_V10/SimpleDualPortRAM_256x24b.v"/>
+          <Attr Name="ImportTime" Val="1494558408"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_AverFilterP32Ch16_V10/SimpleDualPortRAM_512x12b.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_AverFilterP32Ch16_V10/SimpleDualPortRAM_512x12b.v"/>
+          <Attr Name="ImportTime" Val="1492070844"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_AverFilterP128Ch4_V11/SimpleDualPortRAM_512x16b.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_AverFilterP128Ch4_V11/SimpleDualPortRAM_512x16b.v"/>
+          <Attr Name="ImportTime" Val="1495880772"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_RMSP64Ch8_V10/SimpleDualPortRAM_512x24b.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_RMSP64Ch8_V10/SimpleDualPortRAM_512x24b.v"/>
+          <Attr Name="ImportTime" Val="1495508052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/SimpleDualPortRAM_generic.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../JingYan20250211/xinbanjian_20240820.srcs/sources_1/imports/src/new/SimpleDualPortRAM_generic.v"/>
+          <Attr Name="ImportTime" Val="1739193058"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/SimpleDualPortRAM_singlebit.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../JingYan20250211/xinbanjian_20240820.srcs/sources_1/imports/src/new/SimpleDualPortRAM_singlebit.v"/>
+          <Attr Name="ImportTime" Val="1739193058"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_SinTab8192_V11/SinTab8192.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_SinTab8192_V11/SinTab8192.v"/>
+          <Attr Name="ImportTime" Val="1495449919"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_SinTab8192_V11/SinTab8192_V11.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_SinTab8192_V11/SinTab8192_V11.v"/>
+          <Attr Name="ImportTime" Val="1495446788"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_SoftStartChn1b12_V10/SoftStartChn1b12_V10.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_SoftStartChn1b12_V10/SoftStartChn1b12_V10.v"/>
+          <Attr Name="ImportTime" Val="1611026104"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_StateOnCheck_CH4_V10/StateOnCheck_CH8_V10.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_StateOnCheck_CH4_V10/StateOnCheck_CH8_V10.v"/>
+          <Attr Name="ImportTime" Val="1591493944"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Temp2DrvLogic_V12_3L.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Temp2DrvLogic_V12_3L.v"/>
+          <Attr Name="ImportTime" Val="1677455372"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/UI_PQ_V1.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../JingYan20250211/xinbanjian_20240820.srcs/sources_1/imports/src/new/UI_PQ_V1.v"/>
+          <Attr Name="ImportTime" Val="1738810840"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/URef_V1.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../carryfastsyc10mstempffilterbrkfrtFirstf_cTComV2_H8B/xinbanjian_20240820.srcs/sources_1/imports/src/new/URef_V1.v"/>
+          <Attr Name="ImportTime" Val="1730709376"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/XvrtIq_VZ6T.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../JingYan20250211/xinbanjian_20240820.srcs/sources_1/imports/src/new/XvrtIq_VZ6T.v"/>
+          <Attr Name="ImportTime" Val="1736309183"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/fPuQ_VZ5T.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../JingYan20250211/xinbanjian_20240820.srcs/sources_1/imports/src/new/fPuQ_VZ5T.v"/>
+          <Attr Name="ImportTime" Val="1739171207"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/sub_18to16.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../JingYan20250211/xinbanjian_20240820.srcs/sources_1/imports/src/new/sub_18to16.v"/>
+          <Attr Name="ImportTime" Val="1734530383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/uart_rx.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../xinbanjian_2024.8.8/xinbanjian_2024.8.8.srcs/sources_1/imports/src/uart_rx.v"/>
+          <Attr Name="ImportTime" Val="1663120250"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/uart_tx.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../xinbanjian_2024.8.8/xinbanjian_2024.8.8.srcs/sources_1/imports/src/uart_tx.v"/>
+          <Attr Name="ImportTime" Val="1612331994"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/arm3358_pkg.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/new/arm3358_pkg.sv"/>
+          <Attr Name="ImportTime" Val="1719541383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/NEPCS_100_V01_Top.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/new/NEPCS_100_V01_Top.sv"/>
+          <Attr Name="ImportTime" Val="1719561524"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/BitFilter_VZ16.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/BitFilter_VZ16.v"/>
+          <Attr Name="ImportTime" Val="1639464960"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/ad_ctrl.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/new/ad_ctrl.v"/>
+          <Attr Name="ImportTime" Val="1715666994"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/pulse.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/new/pulse.v"/>
+          <Attr Name="ImportTime" Val="1715669060"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/multi_ad_ctrl.sv">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/new/multi_ad_ctrl.sv"/>
+          <Attr Name="ImportTime" Val="1715591790"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_UL_HLvrt_V10/SimpDualPortRAM_Wrapper_generic.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_UL_HLvrt_V10/SimpDualPortRAM_Wrapper_generic.v"/>
+          <Attr Name="ImportTime" Val="1597714674"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_UL_HLvrt_V10/SimpleDualPortRAM_generic.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_UL_HLvrt_V10/SimpleDualPortRAM_generic.v"/>
+          <Attr Name="ImportTime" Val="1597714674"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/AverFilter1024P_b18_V1.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../carryfastsyc10mstempffilterbrkfrtFirstf_cTComV2_H8B/xinbanjian_20240820.srcs/sources_1/imports/src/new/AverFilter1024P_b18_V1.v"/>
+          <Attr Name="ImportTime" Val="1726131795"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/sio_wizard_0/sio_wizard_0.edf">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../xinbanjian_2024.8.2/xinbanjian_2024.8.2.srcs/sources_1/imports/src/sio_wizard_0/sio_wizard_0.edf"/>
+          <Attr Name="ImportTime" Val="1722651843"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/LmtB16_V1.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/LmtB16_V1.v"/>
+          <Attr Name="ImportTime" Val="1656036038"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/AD7607Drv_V11.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../SHR_V2/20240816_zoujun/20240816_zoujun.srcs/sources_1/imports/src/new/AD7607Drv_V11.v"/>
+          <Attr Name="ImportTime" Val="1609377366"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_InvControlLoop3L_V40a/APWMTimeK2_V1.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../xinbanjian_2024.7.15/xinbanjian_2024.7.15.srcs/sources_1/imports/src/Work_InvControlLoop3L_V40a/APWMTimeK2_V1.v"/>
+          <Attr Name="ImportTime" Val="1721879538"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_InvControlLoop3L_V40a/APWMTime_V2.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../xinbanjian_2024.7.15/xinbanjian_2024.7.15.srcs/sources_1/imports/src/Work_InvControlLoop3L_V40a/APWMTime_V2.v"/>
+          <Attr Name="ImportTime" Val="1680612197"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_Xibanya/GridPll_V23_3.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../xinbanjian_2024.8.2/xinbanjian_2024.8.2.srcs/sources_1/imports/src/Work_Xibanya/GridPll_V23_3.v"/>
+          <Attr Name="ImportTime" Val="1713795673"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_InvControlLoop3L_V40a/Lmt_V1.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../xinbanjian_2024.7.15/xinbanjian_2024.7.15.srcs/sources_1/imports/src/Work_InvControlLoop3L_V40a/Lmt_V1.v"/>
+          <Attr Name="ImportTime" Val="1653036104"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/LoadMabc_VZ1.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../xinbanjian_2024.7.15/xinbanjian_2024.7.15.srcs/sources_1/imports/src/LoadMabc_VZ1.v"/>
+          <Attr Name="ImportTime" Val="1721734054"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_PvrLoop_V10/PVR_V10.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_PvrLoop_V10/PVR_V10.v"/>
+          <Attr Name="ImportTime" Val="1573808466"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/ProtectOI_V1.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/ProtectOI_V1.v"/>
+          <Attr Name="ImportTime" Val="1653142908"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_VsgCtrlLoopV32/Subsystem.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_VsgCtrlLoopV32/Subsystem.v"/>
+          <Attr Name="ImportTime" Val="1649661162"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_VsgCtrlLoopV32/Subsystem1.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_VsgCtrlLoopV32/Subsystem1.v"/>
+          <Attr Name="ImportTime" Val="1649661162"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/Work_VsgCtrlLoopV32/VsgCtrlLoopV38Z.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/Work_VsgCtrlLoopV32/VsgCtrlLoopV38Z.v"/>
+          <Attr Name="ImportTime" Val="1649661162"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/fPuQ_VZ2T.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../xinbanjian_2024.7.15/xinbanjian_2024.7.15.srcs/sources_1/imports/src/fPuQ_VZ2T.v"/>
+          <Attr Name="ImportTime" Val="1720920216"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/fPuQ_VZ3T.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../carryfastsyc10mstempffilterbrkfrtFirstf_cTComV2_H8B/xinbanjian_20240820.srcs/sources_1/imports/src/new/fPuQ_VZ3T.v"/>
+          <Attr Name="ImportTime" Val="1727167889"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/sio_wizard_0/sio_wizard_0.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../xinbanjian_2024.8.2/xinbanjian_2024.8.2.srcs/sources_1/imports/src/sio_wizard_0/sio_wizard_0.v"/>
+          <Attr Name="ImportTime" Val="1722651758"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/arm3358_commu_v2.sv">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/new/arm3358_commu_v2.sv"/>
+          <Attr Name="ImportTime" Val="1719561822"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/check_code_detect.sv">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/new/check_code_detect.sv"/>
+          <Attr Name="ImportTime" Val="1719561841"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/comm_state_detect.sv">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/new/comm_state_detect.sv"/>
+          <Attr Name="ImportTime" Val="1719471004"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/heartbeat_detect.sv">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/new/heartbeat_detect.sv"/>
+          <Attr Name="ImportTime" Val="1719470946"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/sample_fifo.sv">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/new/sample_fifo.sv"/>
+          <Attr Name="ImportTime" Val="1719561702"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/new/wave_data_multiplxer.sv">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/new/wave_data_multiplxer.sv"/>
+          <Attr Name="ImportTime" Val="1711069117"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../JingYan20250211/xinbanjian_20240820.srcs/sources_1/imports/src/new/XvrtIq_VZ5T.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../carryfastsyc10mstempffilterbrkfrtFirstf_cTCom/xinbanjian_20240820.srcs/sources_1/imports/src/new/NewARM_comm202410/FifoSelZ.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../JingYan20250211/xinbanjian_20240820.srcs/sources_1/imports/src/new/APWMTimeK24_V2.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../carryfastsyc10mstempffilterbrkfrtFirstf_cTComV2_H8B/xinbanjian_20240820.srcs/sources_1/imports/src/new/APWMTimeK24_V2.v"/>
+          <Attr Name="ImportTime" Val="1729696320"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../carryfastsyc10mstempffilterbrkfrtFirstf_cTCom/xinbanjian_20240820.srcs/sources_1/imports/src/new/NewARM_comm202410/DPRAM_LONG_Z.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../carryfastsyc10mstempffilterbrkfrtFirstf_cTComV2_H8B/xinbanjian_20240820.srcs/sources_1/imports/src/new/NewARM_comm202410/CaseZ.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/coe/dst4.coe">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/coe/dst4.coe"/>
+          <Attr Name="ImportTime" Val="1650784144"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/xilinx_AM3358_61580/archive_project_summary.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../xilinx_AM3358_61580/archive_project_summary.txt"/>
+          <Attr Name="ImportTime" Val="1720765364"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="NEPCS_3000_S7"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+      <Filter Type="Constrs"/>
+      <File Path="$PSRCDIR/constrs_1/imports/xdc/io.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/xdc/io.xdc"/>
+          <Attr Name="ImportTime" Val="1708572580"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PPRDIR/../../xinbanjian_2024.8.2/xinbanjian_2024.8.2.srcs/sim_1/imports/Work_InvControlLoop3L_V40a/InvControlLoop3L_V40b_2.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../xinbanjian_2024.7.15/xinbanjian_2024.7.15.srcs/sources_1/imports/src/Work_InvControlLoop3L_V40a/InvControlLoop3L_V40b_2.v"/>
+          <Attr Name="ImportTime" Val="1720511086"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../../../SHR_2024/xinbanjian_2024.8.8 PR/xinbanjian_2024.8.8.srcs/sources_1/imports/src/new/L3_UnB_VZ6.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="NEPCS_3000_S7"/>
+        <Option Name="TopLib" Val="xil_defaultlib"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+        <Option Name="TransportPathDelay" Val="0"/>
+        <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="utils_1" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+      <Filter Type="Utils"/>
+      <Config>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="wave_blk_sdpr" Type="BlockSrcs" RelSrcDir="$PSRCDIR/wave_blk_sdpr">
+      <File Path="$PSRCDIR/sources_1/ip/wave_blk_sdpr/wave_blk_sdpr.xci">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../NEPCS_3000_61850/xilinx_AM3358_GPMC_0628/src/ip/wave_sdpr_blk/wave_blk_sdpr/wave_blk_sdpr.xci"/>
+          <Attr Name="ImportTime" Val="1704678772"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="wave_blk_sdpr"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="ila_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ila_0">
+      <File Path="$PSRCDIR/sources_1/ip/ila_0_1/ila_0.xci">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../carryfastsyc10mstempffilterbrkfrtFirstf_cTComV2_H8B/xinbanjian_20240820.srcs/sources_1/ip/ila_0_1/ila_0.xci"/>
+          <Attr Name="ImportTime" Val="1729229278"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="ila_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Simulators>
+    <Simulator Name="XSim">
+      <Option Name="Description" Val="Vivado Simulator"/>
+      <Option Name="CompiledLib" Val="0"/>
+    </Simulator>
+    <Simulator Name="ModelSim">
+      <Option Name="Description" Val="ModelSim Simulator"/>
+    </Simulator>
+    <Simulator Name="Questa">
+      <Option Name="Description" Val="Questa Advanced Simulator"/>
+    </Simulator>
+    <Simulator Name="Riviera">
+      <Option Name="Description" Val="Riviera-PRO Simulator"/>
+    </Simulator>
+    <Simulator Name="ActiveHDL">
+      <Option Name="Description" Val="Active-HDL Simulator"/>
+    </Simulator>
+  </Simulators>
+  <Runs Version="1" Minor="10">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7s75fgga484-2" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="wave_blk_sdpr_synth_1" Type="Ft3:Synth" SrcSet="wave_blk_sdpr" Part="xc7s75fgga484-2" ConstrsSet="wave_blk_sdpr" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="ila_0_synth_1" Type="Ft3:Synth" SrcSet="ila_0" Part="xc7s75fgga484-2" ConstrsSet="ila_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7s75fgga484-2" ConstrsSet="constrs_1" Description="To compensate for optimistic delay estimation, add extra delay cost to long distance and high fanout connections. (high setting, most pessimistic)" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Performance_NetDelay_high" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design">
+          <Option Id="Directive">2</Option>
+        </Step>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design" EnableStepBool="1">
+          <Option Id="Directive">2</Option>
+        </Step>
+        <Step Id="route_design">
+          <Option Id="Directive">1</Option>
+        </Step>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream">
+          <Option Id="BinFile">1</Option>
+        </Step>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="wave_blk_sdpr_impl_1" Type="Ft2:EntireDesign" Part="xc7s75fgga484-2" ConstrsSet="wave_blk_sdpr" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="wave_blk_sdpr_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="ila_0_impl_1" Type="Ft2:EntireDesign" Part="xc7s75fgga484-2" ConstrsSet="ila_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="ila_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+  </Runs>
+  <Board/>
+</Project>
